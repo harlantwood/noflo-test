@@ -1,0 +1,267 @@
+{
+    "caseSensitive": false,
+    "properties": {
+        "name": "main",
+        "environment": {
+            "type": "noflo-browser",
+            "content": ""
+        },
+        "description": "ads",
+        "icon": ""
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "adapters/ObjectToString_r0pwi": {
+            "component": "adapters/ObjectToString",
+            "metadata": {
+                "label": "ObjectToString",
+                "x": 360,
+                "y": 324,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "adapters/PairsToObject_bujnk": {
+            "component": "adapters/PairsToObject",
+            "metadata": {
+                "label": "PairsToObject",
+                "x": 216,
+                "y": 36,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "ajax/CorsProxy_jk1c4": {
+            "component": "ajax/CorsProxy",
+            "metadata": {
+                "label": "CorsProxy",
+                "x": 216,
+                "y": 324,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "ajax/Get_79huk": {
+            "component": "ajax/Get",
+            "metadata": {
+                "label": "Get",
+                "x": 72,
+                "y": 36,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "amd/Configure_3lpvd": {
+            "component": "amd/Configure",
+            "metadata": {
+                "label": "Configure",
+                "x": 504,
+                "y": 324,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "canvas/ClearRect_vlev1": {
+            "component": "canvas/ClearRect",
+            "metadata": {
+                "label": "ClearRect",
+                "x": 648,
+                "y": 324,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "adapters/ObjectToPackets_pg5di": {
+            "component": "adapters/ObjectToPackets",
+            "metadata": {
+                "label": "ObjectToPackets",
+                "x": 504,
+                "y": 36,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "adapters/ObjectToString_3u3jj": {
+            "component": "adapters/ObjectToString",
+            "metadata": {
+                "label": "ObjectToString",
+                "x": 648,
+                "y": 36,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "adapters/PacketsToArray_bvtak": {
+            "component": "adapters/PacketsToArray",
+            "metadata": {
+                "label": "PacketsToArray",
+                "x": 504,
+                "y": 180,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "amd/Configure_3lpvd",
+                "port": "error"
+            },
+            "tgt": {
+                "process": "canvas/ClearRect_vlev1",
+                "port": "width"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "canvas/ClearRect_vlev1",
+                "port": "clearrect"
+            },
+            "tgt": {
+                "process": "ajax/Get_79huk",
+                "port": "url"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "ajax/Get_79huk",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/PairsToObject_bujnk",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/PairsToObject_bujnk",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToString_r0pwi",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/ObjectToString_r0pwi",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "amd/Configure_3lpvd",
+                "port": "config"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "ajax/CorsProxy_jk1c4",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToString_r0pwi",
+                "port": "delim"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "ajax/Get_79huk",
+                "port": "error"
+            },
+            "tgt": {
+                "process": "ajax/CorsProxy_jk1c4",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "ajax/Get_79huk",
+                "port": "load"
+            },
+            "tgt": {
+                "process": "canvas/ClearRect_vlev1",
+                "port": "height"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "amd/Configure_3lpvd",
+                "port": "ready"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToString_r0pwi",
+                "port": "assoc"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/PacketsToArray_bvtak",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "canvas/ClearRect_vlev1",
+                "port": "point"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/ObjectToString_3u3jj",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToPackets_pg5di",
+                "port": "in"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/ObjectToPackets_pg5di",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToString_3u3jj",
+                "port": "assoc"
+            },
+            "metadata": {}
+        },
+        {
+            "src": {
+                "process": "adapters/PairsToObject_bujnk",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToPackets_pg5di",
+                "port": "in"
+            },
+            "metadata": {
+                "route": 0
+            }
+        },
+        {
+            "src": {
+                "process": "adapters/ObjectToString_r0pwi",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "adapters/ObjectToPackets_pg5di",
+                "port": "depth"
+            },
+            "metadata": {
+                "route": 0
+            }
+        }
+    ]
+}
