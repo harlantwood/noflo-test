@@ -1,0 +1,198 @@
+{
+  "id": "ti6yn",
+  "project": "",
+  "properties": {
+    "name": "photobooth",
+    "environment": {
+      "runtime": "html",
+      "width": 300,
+      "height": 300,
+      "content": ""
+    }
+  },
+  "inports": {
+    "prev": {
+      "process": "routers/KickRouter_bzaiw",
+      "port": "prev",
+      "metadata": {
+        "x": 0,
+        "y": 144
+      }
+    },
+    "next": {
+      "process": "routers/KickRouter_bzaiw",
+      "port": "next"
+    }
+  },
+  "outports": {
+    "image": {
+      "process": "core/Split_xyb8x",
+      "port": "out",
+      "metadata": {
+        "x": 2000,
+        "y": 1000
+      }
+    }
+  },
+  "groups": [
+    {
+      "name": "Const's",
+      "nodes": ["collective"],
+      "metadata": {
+        "color": 4
+      }
+    },
+    {
+      "name": "Roles",
+      "nodes": ["membership"],
+      "metadata": {
+        "color": 1
+      }
+    },
+    {
+      "name": "Offers",
+      "nodes": ["distribution", "disbandment"],
+      "metadata": {
+        "color": 2
+      }
+    },
+    {
+      "name": "Agents",
+      "nodes": ["alice", "bob", "cynthia"],
+      "metadata": {
+        "color": 3
+      }
+    }
+  ],
+  "processes": {
+    "collective": {
+      "metadata": {
+        "x": 200,
+        "y": 200,
+        "label": "This Collective"
+      }
+    },
+    "membership": {
+      "metadata": {
+        "x": 500,
+        "y": 300,
+        "label": "Membership"
+      }
+    },
+    "alice": {
+      "metadata": {
+        "x": 200,
+        "y": 400,
+        "label": "Alice"
+      }
+    },
+    "bob": {
+      "metadata": {
+        "x": 200,
+        "y": 520,
+        "label": "Bob"
+      }
+    },
+    "cynthia": {
+      "metadata": {
+        "x": 200,
+        "y": 640,
+        "label": "Cynthia"
+      }
+    },
+    "distribution": {
+      "metadata": {
+        "x": 800,
+        "y": 200,
+        "label": "Distribution"
+      }
+    },
+    "disbandment": {
+      "metadata": {
+        "x": 800,
+        "y": 420,
+        "label": "Disbandment"
+      }
+    },
+  },
+  "connections": [
+    {
+      "src": {
+        "process": "collective",
+        "port": ""
+      },
+      "tgt": {
+        "process": "membership",
+        "port": ""
+      },
+      "metadata": {
+        "route": "5"
+      }
+    },
+    {
+      "src": {
+        "process": "membership",
+        "port": ""
+      },
+      "tgt": {
+        "process": "distribution",
+        "port": ""
+      },
+      "metadata": {
+        "route": "10"
+      }
+    },
+    {
+      "src": {
+        "process": "membership",
+        "port": ""
+      },
+      "tgt": {
+        "process": "disbandment",
+        "port": ""
+      },
+      "metadata": {
+        "route": "10"
+      }
+    },
+    {
+      "src": {
+        "process": "alice",
+        "port": ""
+      },
+      "tgt": {
+        "process": "membership",
+        "port": ""
+      },
+      "metadata": {
+        "route": "3"
+      }
+    },
+    {
+      "src": {
+        "process": "bob",
+        "port": ""
+      },
+      "tgt": {
+        "process": "membership",
+        "port": ""
+      },
+      "metadata": {
+        "route": "3"
+      }
+    },
+    {
+      "src": {
+        "process": "cynthia",
+        "port": ""
+      },
+      "tgt": {
+        "process": "membership",
+        "port": ""
+      },
+      "metadata": {
+        "route": "3"
+      }
+    },
+  ]
+}
