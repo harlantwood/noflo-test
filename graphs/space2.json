@@ -39,7 +39,7 @@
                 "port": ""
             },
             "metadata": {
-                "route": "1024"
+                "route": "1"
             }
         },
         "Xv9ZSX2dVtT": {
@@ -52,7 +52,7 @@
                 "port": ""
             },
             "metadata": {
-                "route": "2048"
+                "route": "2"
             }
         }
     }
