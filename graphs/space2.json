@@ -1,17 +1,40 @@
+
 {
-    "id": "abc",
-    "project": "xyz",
-    "properties": {
-        "name": "space-demo",
-        "environment": {
-            "runtime": "html",
-            "width": 300,
-            "height": 300,
-            "content": ""
-        }
+  "id": "ti6yn",
+  "project": "",
+  "properties": {
+    "name": "photobooth",
+    "environment": {
+      "runtime": "html",
+      "width": 300,
+      "height": 300,
+      "content": ""
+    }
+  },
+  "inports": {
+    "prev": {
+      "process": "routers/KickRouter_bzaiw",
+      "port": "prev",
+      "metadata": {
+        "x": 0,
+        "y": 144
+      }
     },
-    "inports": {},
-    "outports": {},
+    "next": {
+      "process": "routers/KickRouter_bzaiw",
+      "port": "next"
+    }
+  },
+  "outports": {
+    "image": {
+      "process": "core/Split_xyb8x",
+      "port": "out",
+      "metadata": {
+        "x": 2000,
+        "y": 1000
+      }
+    }
+  },
     "processes": {
         "f67AAJhDvxt": {
             "metadata": {
@@ -57,3 +80,5 @@
         }
     }
 }
+
+
