@@ -1,84 +1,59 @@
-
 {
-  "id": "ti6yn",
-  "project": "",
-  "properties": {
-    "name": "photobooth",
-    "environment": {
-      "runtime": "html",
-      "width": 300,
-      "height": 300,
-      "content": ""
-    }
-  },
-  "inports": {
-    "prev": {
-      "process": "routers/KickRouter_bzaiw",
-      "port": "prev",
-      "metadata": {
-        "x": 0,
-        "y": 144
-      }
+    "id": "abc",
+    "project": "xyz",
+    "properties": {
+        "name": "space-demo",
+        "environment": {
+            "runtime": "html",
+            "width": 300,
+            "height": 300,
+            "content": ""
+        }
     },
-    "next": {
-      "process": "routers/KickRouter_bzaiw",
-      "port": "next"
-    }
-  },
-  "outports": {
-    "image": {
-      "process": "core/Split_xyb8x",
-      "port": "out",
-      "metadata": {
-        "x": 2000,
-        "y": 1000
-      }
-    }
-  },
+    "inports": {},
+    "outports": {},
     "processes": {
-        "f67AAJhDvxt": {
+        "WmgHMGReDjk": {
             "metadata": {
-                "x": 740,
+                "x": 140,
                 "y": 904,
                 "label": "Alice"
             }
         },
-        "RbGU943VNP": {
+        "ABVKxCStVgJ": {
             "metadata": {
-                "x": 927,
-                "y": 774,
+                "x": 859,
+                "y": 858,
                 "label": "Open Source Video Editor"
             }
         }
     },
-    "connections": {
-        "LqW6fGxwzMP": {
+    "connections": [
+        {
             "src": {
-                "process": "f67AAJhDvxt",
+                "process": "WmgHMGReDjk",
                 "port": ""
             },
             "tgt": {
-                "process": "RbGU943VNP",
+                "process": "ABVKxCStVgJ",
                 "port": ""
             },
             "metadata": {
-                "route": "10"
+                "route": "1024"
             }
         },
-        "Xv9ZSX2dVtT": {
+        {
             "src": {
-                "process": "f67AAJhDvxt",
+                "process": "WmgHMGReDjk",
                 "port": ""
             },
             "tgt": {
-                "process": "RbGU943VNP",
+                "process": "ABVKxCStVgJ",
                 "port": ""
             },
             "metadata": {
                 "route": "3"
             }
         }
-    }
+    ]
 }
-
-
