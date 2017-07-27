@@ -113,7 +113,7 @@
         "y": 420,
         "label": "Disbandment"
       }
-    },
+    }
   },
   "connections": [
     {
@@ -193,6 +193,6 @@
       "metadata": {
         "route": "3"
       }
-    },
+    }
   ]
 }
