@@ -1,189 +1,187 @@
 {
-    "vizData": {
-        "id": "abc",
-        "project": "xyz",
-        "properties": {
-            "name": "space-demo",
-            "environment": {
-                "runtime": "html",
-                "width": 300,
-                "height": 300,
-                "content": ""
+    "id": "abc",
+    "project": "xyz",
+    "properties": {
+        "name": "space-demo",
+        "environment": {
+            "runtime": "html",
+            "width": 300,
+            "height": 300,
+            "content": ""
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "processes": {
+        "8kN8Qwh6c1V": {
+            "metadata": {
+                "x": 128,
+                "y": 268,
+                "label": "Alice"
             }
         },
-        "inports": {},
-        "outports": {},
-        "processes": {
-            "TyhEGTDGtB8": {
-                "metadata": {
-                    "x": 187,
-                    "y": 231,
-                    "label": "Alice"
-                }
-            },
-            "R8FXXn36zEe": {
-                "metadata": {
-                    "x": 286,
-                    "y": 172,
-                    "label": "Facilitator Role"
-                }
-            },
-            "Lz9egWWBEUP": {
-                "metadata": {
-                    "x": 249,
-                    "y": 452,
-                    "label": "Open Source Video Editor"
-                }
-            },
-            "GtjYL9pBKLJ": {
-                "metadata": {
-                    "x": 496,
-                    "y": 24,
-                    "label": "Bob"
-                }
-            },
-            "AHncX3izG4a": {
-                "metadata": {
-                    "x": 527,
-                    "y": 304,
-                    "label": "Cynthia"
-                }
-            },
-            "ApoMcae17tM": {
-                "metadata": {
-                    "x": 142,
-                    "y": 336,
-                    "label": "Feature Bounty: splitting tool"
-                }
-            },
-            "Q35xHxkQ9Ew": {
-                "metadata": {
-                    "x": 442,
-                    "y": 515,
-                    "label": "Vote on proposed solutions"
-                }
-            },
-            "HvwMzXSxBo1": {
-                "metadata": {
-                    "x": 43,
-                    "y": 366,
-                    "label": "Anyone can support the parent offer with tokens"
-                }
-            },
-            "QjgS9fhbze6": {
-                "metadata": {
-                    "x": 348,
-                    "y": 338,
-                    "label": "Reward Pool"
-                }
-            },
-            "2FntdQcoufM": {
-                "metadata": {
-                    "x": 586,
-                    "y": 423,
-                    "label": "Dave"
-                }
-            },
-            "d8riivxAZyF": {
-                "metadata": {
-                    "x": 413,
-                    "y": 599,
-                    "label": "Solution for: \"splitting tool\""
-                }
+        "BYJcvFxr1pJ": {
+            "metadata": {
+                "x": 265,
+                "y": 461,
+                "label": "Facilitator Role"
             }
         },
-        "connections": [
-            {
-                "src": {
-                    "process": "TyhEGTDGtB8",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "R8FXXn36zEe",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "TyhEGTDGtB8",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "Lz9egWWBEUP",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "ApoMcae17tM",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "Q35xHxkQ9Ew",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "ApoMcae17tM",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "HvwMzXSxBo1",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "ApoMcae17tM",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "QjgS9fhbze6",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "AHncX3izG4a",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "ApoMcae17tM",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
-            },
-            {
-                "src": {
-                    "process": "2FntdQcoufM",
-                    "port": ""
-                },
-                "tgt": {
-                    "process": "d8riivxAZyF",
-                    "port": ""
-                },
-                "metadata": {
-                    "route": 1
-                }
+        "MyUyVLNpUJQ": {
+            "metadata": {
+                "x": 352,
+                "y": 374,
+                "label": "Open Source Video Editor"
             }
-        ]
-    }
+        },
+        "fVcVMzYQZEu": {
+            "metadata": {
+                "x": 557,
+                "y": 47,
+                "label": "Bob"
+            }
+        },
+        "LHjejXnVoT4": {
+            "metadata": {
+                "x": 381,
+                "y": 390,
+                "label": "Cynthia"
+            }
+        },
+        "bkfxjfNuePE": {
+            "metadata": {
+                "x": 179,
+                "y": 156,
+                "label": "Feature Bounty: splitting tool"
+            }
+        },
+        "gLVKE5vojWN": {
+            "metadata": {
+                "x": 9,
+                "y": 288,
+                "label": "Vote on proposed solutions"
+            }
+        },
+        "HNGddGf1i7S": {
+            "metadata": {
+                "x": 143,
+                "y": 349,
+                "label": "Anyone can support the parent offer with tokens"
+            }
+        },
+        "ceuY72opoUA": {
+            "metadata": {
+                "x": 194,
+                "y": 186,
+                "label": "Reward Pool"
+            }
+        },
+        "ZiqvPmp9RJ2": {
+            "metadata": {
+                "x": 378,
+                "y": 196,
+                "label": "Dave"
+            }
+        },
+        "LU4smJdbUeq": {
+            "metadata": {
+                "x": 77,
+                "y": 196,
+                "label": "Solution for: \"splitting tool\""
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "8kN8Qwh6c1V",
+                "port": ""
+            },
+            "tgt": {
+                "process": "BYJcvFxr1pJ",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "8kN8Qwh6c1V",
+                "port": ""
+            },
+            "tgt": {
+                "process": "MyUyVLNpUJQ",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "bkfxjfNuePE",
+                "port": ""
+            },
+            "tgt": {
+                "process": "gLVKE5vojWN",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "bkfxjfNuePE",
+                "port": ""
+            },
+            "tgt": {
+                "process": "HNGddGf1i7S",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "bkfxjfNuePE",
+                "port": ""
+            },
+            "tgt": {
+                "process": "ceuY72opoUA",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "LHjejXnVoT4",
+                "port": ""
+            },
+            "tgt": {
+                "process": "bkfxjfNuePE",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "ZiqvPmp9RJ2",
+                "port": ""
+            },
+            "tgt": {
+                "process": "LU4smJdbUeq",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        }
+    ]
 }
