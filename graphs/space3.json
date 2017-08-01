@@ -1,0 +1,187 @@
+{
+    "id": "abc",
+    "project": "xyz",
+    "properties": {
+        "name": "space-demo",
+        "environment": {
+            "runtime": "html",
+            "width": 300,
+            "height": 300,
+            "content": ""
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "processes": {
+        "8mFX8oyP71d": {
+            "metadata": {
+                "x": 545,
+                "y": 437,
+                "label": "Alice"
+            }
+        },
+        "YArSQY26LgD": {
+            "metadata": {
+                "x": 74,
+                "y": 262,
+                "label": "YArSQY26LgD"
+            }
+        },
+        "KkmUVtDgP1q": {
+            "metadata": {
+                "x": 413,
+                "y": 232,
+                "label": "Open Source Video Editor"
+            }
+        },
+        "WSvu1dCRUTM": {
+            "metadata": {
+                "x": 456,
+                "y": 585,
+                "label": "WSvu1dCRUTM"
+            }
+        },
+        "FQoHtV8ZyFL": {
+            "metadata": {
+                "x": 545,
+                "y": 432,
+                "label": "FQoHtV8ZyFL"
+            }
+        },
+        "Bm9bWpxZuRi": {
+            "metadata": {
+                "x": 192,
+                "y": 59,
+                "label": "Feature Bounty: splitting tool"
+            }
+        },
+        "7N5nMPsApPD": {
+            "metadata": {
+                "x": 342,
+                "y": 570,
+                "label": "Vote on proposed solutions"
+            }
+        },
+        "AskFzb57R4f": {
+            "metadata": {
+                "x": 179,
+                "y": 417,
+                "label": "Anyone can support the parent offer with tokens"
+            }
+        },
+        "UGANHY11nic": {
+            "metadata": {
+                "x": 258,
+                "y": 315,
+                "label": "UGANHY11nic"
+            }
+        },
+        "d9kuEQqrqcS": {
+            "metadata": {
+                "x": 166,
+                "y": 442,
+                "label": "d9kuEQqrqcS"
+            }
+        },
+        "JgF9BN6RGre": {
+            "metadata": {
+                "x": 296,
+                "y": 138,
+                "label": "Feature implementaiton of \"splitting tool\""
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "8mFX8oyP71d",
+                "port": ""
+            },
+            "tgt": {
+                "process": "YArSQY26LgD",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "8mFX8oyP71d",
+                "port": ""
+            },
+            "tgt": {
+                "process": "KkmUVtDgP1q",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "Bm9bWpxZuRi",
+                "port": ""
+            },
+            "tgt": {
+                "process": "7N5nMPsApPD",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "Bm9bWpxZuRi",
+                "port": ""
+            },
+            "tgt": {
+                "process": "AskFzb57R4f",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "Bm9bWpxZuRi",
+                "port": ""
+            },
+            "tgt": {
+                "process": "UGANHY11nic",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "FQoHtV8ZyFL",
+                "port": ""
+            },
+            "tgt": {
+                "process": "Bm9bWpxZuRi",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "d9kuEQqrqcS",
+                "port": ""
+            },
+            "tgt": {
+                "process": "JgF9BN6RGre",
+                "port": ""
+            },
+            "metadata": {
+                "route": 1
+            }
+        }
+    ]
+}
