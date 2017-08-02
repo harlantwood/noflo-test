@@ -1,7 +1,5 @@
 {
     "caseSensitive": false,
-    "id": "abc",
-    "project": "xyz",
     "properties": {
         "name": "space-demo",
         "environment": {
@@ -12,6 +10,7 @@
     },
     "inports": {},
     "outports": {},
+    "groups": [],
     "processes": {
         "browser-app/DoSomething_8FjzWrdtFHb": {
             "metadata": {
