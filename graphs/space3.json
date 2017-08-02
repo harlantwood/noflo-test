@@ -13,80 +13,91 @@
     "inports": {},
     "outports": {},
     "processes": {
-        "gtDw6WgsWNx": {
+        "TR8cPvuDCF1": {
             "metadata": {
-                "x": 172,
-                "y": 230,
+                "component": "Agent",
+                "x": 164,
+                "y": 167,
                 "label": "Alice"
             }
         },
-        "F7PxXUbEWvP": {
+        "SaVUG6FvxLS": {
             "metadata": {
-                "x": 294,
-                "y": 456,
+                "component": "Agent",
+                "x": 385,
+                "y": 267,
                 "label": "Bob"
             }
         },
-        "R5r2nrtq42": {
+        "KzwkYTgcN9": {
             "metadata": {
-                "x": 182,
-                "y": 226,
+                "component": "Agent",
+                "x": 208,
+                "y": 167,
                 "label": "Cynthia"
             }
         },
-        "jgqjg1XrHfB": {
+        "hRhUozZuMuB": {
             "metadata": {
-                "x": 289,
-                "y": 187,
+                "component": "Agent",
+                "x": 652,
+                "y": 569,
                 "label": "Dave"
             }
         },
-        "ELSFqnvKVa6": {
+        "iUGx7LP8awk": {
             "metadata": {
-                "x": 415,
-                "y": 536,
+                "component": "Role",
+                "x": 271,
+                "y": 533,
                 "label": "Facilitator Role"
             }
         },
-        "iJ5QP26vUAh": {
+        "aijJsaiPKQ5": {
             "metadata": {
-                "x": 508,
-                "y": 745,
+                "component": "Constellation",
+                "x": 490,
+                "y": 730,
                 "label": "Open Source Video Editor"
             }
         },
-        "FnD1RBGRAz9": {
+        "3KSPoddsjPh": {
             "metadata": {
-                "x": 598,
-                "y": 534,
+                "component": "Offer",
+                "x": 723,
+                "y": 602,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "LnQsPziquuP": {
+        "aMdegDpQb98": {
             "metadata": {
-                "x": 726,
-                "y": 154,
+                "component": "Offer",
+                "x": 580,
+                "y": 201,
                 "label": "Vote on proposed solutions"
             }
         },
-        "CUNE1ifMQwg": {
+        "AWRbg9bsfjC": {
             "metadata": {
-                "x": 501,
-                "y": 598,
+                "component": "Offer",
+                "x": 320,
+                "y": 167,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "fbM7H7qRZkR": {
+        "C7j8inVhqZi": {
             "metadata": {
-                "x": 251,
-                "y": 621,
+                "component": "Offer",
+                "x": 557,
+                "y": 519,
                 "label": "Reward Pool"
             }
         },
-        "Tdqt4ttinXJ": {
+        "ZwDqUNS7VAe": {
             "metadata": {
-                "x": 187,
-                "y": 555,
+                "component": "Offer",
+                "x": 313,
+                "y": 244,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -94,11 +105,11 @@
     "connections": [
         {
             "src": {
-                "process": "gtDw6WgsWNx",
+                "process": "TR8cPvuDCF1",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "iJ5QP26vUAh",
+                "process": "aijJsaiPKQ5",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -107,11 +118,11 @@
         },
         {
             "src": {
-                "process": "gtDw6WgsWNx",
+                "process": "TR8cPvuDCF1",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "iJ5QP26vUAh",
+                "process": "aijJsaiPKQ5",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -120,11 +131,11 @@
         },
         {
             "src": {
-                "process": "gtDw6WgsWNx",
+                "process": "TR8cPvuDCF1",
                 "port": "Created"
             },
             "tgt": {
-                "process": "ELSFqnvKVa6",
+                "process": "iUGx7LP8awk",
                 "port": ""
             },
             "metadata": {
@@ -133,11 +144,11 @@
         },
         {
             "src": {
-                "process": "gtDw6WgsWNx",
+                "process": "TR8cPvuDCF1",
                 "port": "Created"
             },
             "tgt": {
-                "process": "iJ5QP26vUAh",
+                "process": "aijJsaiPKQ5",
                 "port": ""
             },
             "metadata": {
@@ -146,11 +157,11 @@
         },
         {
             "src": {
-                "process": "F7PxXUbEWvP",
+                "process": "SaVUG6FvxLS",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "iJ5QP26vUAh",
+                "process": "aijJsaiPKQ5",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -159,11 +170,11 @@
         },
         {
             "src": {
-                "process": "F7PxXUbEWvP",
+                "process": "SaVUG6FvxLS",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "iJ5QP26vUAh",
+                "process": "aijJsaiPKQ5",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -172,11 +183,11 @@
         },
         {
             "src": {
-                "process": "R5r2nrtq42",
+                "process": "KzwkYTgcN9",
                 "port": "Created"
             },
             "tgt": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": ""
             },
             "metadata": {
@@ -185,11 +196,11 @@
         },
         {
             "src": {
-                "process": "jgqjg1XrHfB",
+                "process": "hRhUozZuMuB",
                 "port": "Created"
             },
             "tgt": {
-                "process": "Tdqt4ttinXJ",
+                "process": "ZwDqUNS7VAe",
                 "port": ""
             },
             "metadata": {
@@ -198,11 +209,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "LnQsPziquuP",
+                "process": "aMdegDpQb98",
                 "port": ""
             },
             "metadata": {
@@ -211,11 +222,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "CUNE1ifMQwg",
+                "process": "AWRbg9bsfjC",
                 "port": ""
             },
             "metadata": {
@@ -224,11 +235,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "fbM7H7qRZkR",
+                "process": "C7j8inVhqZi",
                 "port": ""
             },
             "metadata": {
@@ -237,11 +248,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Created"
             },
             "tgt": {
-                "process": "LnQsPziquuP",
+                "process": "aMdegDpQb98",
                 "port": ""
             },
             "metadata": {
@@ -250,11 +261,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Created"
             },
             "tgt": {
-                "process": "CUNE1ifMQwg",
+                "process": "AWRbg9bsfjC",
                 "port": ""
             },
             "metadata": {
@@ -263,11 +274,11 @@
         },
         {
             "src": {
-                "process": "FnD1RBGRAz9",
+                "process": "3KSPoddsjPh",
                 "port": "Created"
             },
             "tgt": {
-                "process": "fbM7H7qRZkR",
+                "process": "C7j8inVhqZi",
                 "port": ""
             },
             "metadata": {
