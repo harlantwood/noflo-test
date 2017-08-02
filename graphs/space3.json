@@ -24,91 +24,91 @@ Offer
     "inports": {},
     "outports": {},
     "processes": {
-        "467tYXycj82": {
+        "DaRBN5zzGXE": {
             "metadata": {
-                "component": "Agent",
-                "x": 395,
-                "y": 299,
+                "component": "Offer",
+                "x": 329,
+                "y": 626,
                 "label": "Alice"
             }
         },
-        "FqgY2WT6h7C": {
+        "3x7jrzxMUnh": {
             "metadata": {
-                "component": "Agent",
-                "x": 708,
-                "y": 373,
+                "component": "Offer",
+                "x": 737,
+                "y": 338,
                 "label": "Bob"
             }
         },
-        "CH7FTuz15XT": {
+        "4t6YyNxJaPt": {
             "metadata": {
-                "component": "Agent",
-                "x": 375,
-                "y": 209,
+                "component": "Offer",
+                "x": 176,
+                "y": 629,
                 "label": "Cynthia"
             }
         },
-        "HQs3VqzsQZe": {
+        "322idpjvCmW": {
             "metadata": {
-                "component": "Agent",
-                "x": 630,
-                "y": 202,
+                "component": "Offer",
+                "x": 641,
+                "y": 264,
                 "label": "Dave"
             }
         },
-        "3RBAmAvUhKR": {
+        "gJ56FEfiptW": {
             "metadata": {
-                "component": "Agent",
-                "x": 487,
-                "y": 489,
+                "component": "Offer",
+                "x": 253,
+                "y": 180,
                 "label": "Facilitator Role"
             }
         },
-        "D1xziBazTh7": {
+        "BKKtLaur1Fv": {
             "metadata": {
-                "component": "Agent",
-                "x": 197,
-                "y": 630,
+                "component": "Offer",
+                "x": 413,
+                "y": 342,
                 "label": "Open Source Video Editor"
             }
         },
-        "gnvWeN1Utj4": {
+        "8cQysDCNFBy": {
             "metadata": {
-                "component": "Agent",
-                "x": 399,
-                "y": 693,
+                "component": "Offer",
+                "x": 693,
+                "y": 437,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "bMhkxsazzct": {
+        "SmvePgcesYt": {
             "metadata": {
-                "component": "Agent",
-                "x": 471,
-                "y": 387,
+                "component": "Offer",
+                "x": 701,
+                "y": 436,
                 "label": "Vote on proposed solutions"
             }
         },
-        "VMuVH739j8k": {
+        "DcjRMqsFGc3": {
             "metadata": {
-                "component": "Agent",
-                "x": 196,
-                "y": 714,
+                "component": "Offer",
+                "x": 678,
+                "y": 456,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "37LE3dbEAo3": {
+        "PugkrWuvMmw": {
             "metadata": {
-                "component": "Agent",
-                "x": 646,
-                "y": 501,
+                "component": "Offer",
+                "x": 188,
+                "y": 442,
                 "label": "Reward Pool"
             }
         },
-        "TardDfXnudY": {
+        "M9FsvifaKbX": {
             "metadata": {
-                "component": "Agent",
-                "x": 359,
-                "y": 664,
+                "component": "Offer",
+                "x": 256,
+                "y": 530,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -116,11 +116,11 @@ Offer
     "connections": [
         {
             "src": {
-                "process": "467tYXycj82",
+                "process": "DaRBN5zzGXE",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "D1xziBazTh7",
+                "process": "BKKtLaur1Fv",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -129,11 +129,11 @@ Offer
         },
         {
             "src": {
-                "process": "467tYXycj82",
+                "process": "DaRBN5zzGXE",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "D1xziBazTh7",
+                "process": "BKKtLaur1Fv",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -142,11 +142,11 @@ Offer
         },
         {
             "src": {
-                "process": "467tYXycj82",
+                "process": "DaRBN5zzGXE",
                 "port": "Created"
             },
             "tgt": {
-                "process": "3RBAmAvUhKR",
+                "process": "gJ56FEfiptW",
                 "port": ""
             },
             "metadata": {
@@ -155,11 +155,11 @@ Offer
         },
         {
             "src": {
-                "process": "467tYXycj82",
+                "process": "DaRBN5zzGXE",
                 "port": "Created"
             },
             "tgt": {
-                "process": "D1xziBazTh7",
+                "process": "BKKtLaur1Fv",
                 "port": ""
             },
             "metadata": {
@@ -168,11 +168,11 @@ Offer
         },
         {
             "src": {
-                "process": "FqgY2WT6h7C",
+                "process": "3x7jrzxMUnh",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "D1xziBazTh7",
+                "process": "BKKtLaur1Fv",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -181,11 +181,11 @@ Offer
         },
         {
             "src": {
-                "process": "FqgY2WT6h7C",
+                "process": "3x7jrzxMUnh",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "D1xziBazTh7",
+                "process": "BKKtLaur1Fv",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -194,11 +194,11 @@ Offer
         },
         {
             "src": {
-                "process": "CH7FTuz15XT",
+                "process": "4t6YyNxJaPt",
                 "port": "Created"
             },
             "tgt": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": ""
             },
             "metadata": {
@@ -207,11 +207,11 @@ Offer
         },
         {
             "src": {
-                "process": "HQs3VqzsQZe",
+                "process": "322idpjvCmW",
                 "port": "Created"
             },
             "tgt": {
-                "process": "TardDfXnudY",
+                "process": "M9FsvifaKbX",
                 "port": ""
             },
             "metadata": {
@@ -220,11 +220,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "bMhkxsazzct",
+                "process": "SmvePgcesYt",
                 "port": ""
             },
             "metadata": {
@@ -233,11 +233,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "VMuVH739j8k",
+                "process": "DcjRMqsFGc3",
                 "port": ""
             },
             "metadata": {
@@ -246,11 +246,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "37LE3dbEAo3",
+                "process": "PugkrWuvMmw",
                 "port": ""
             },
             "metadata": {
@@ -259,11 +259,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Created"
             },
             "tgt": {
-                "process": "bMhkxsazzct",
+                "process": "SmvePgcesYt",
                 "port": ""
             },
             "metadata": {
@@ -272,11 +272,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Created"
             },
             "tgt": {
-                "process": "VMuVH739j8k",
+                "process": "DcjRMqsFGc3",
                 "port": ""
             },
             "metadata": {
@@ -285,11 +285,11 @@ Offer
         },
         {
             "src": {
-                "process": "gnvWeN1Utj4",
+                "process": "8cQysDCNFBy",
                 "port": "Created"
             },
             "tgt": {
-                "process": "37LE3dbEAo3",
+                "process": "PugkrWuvMmw",
                 "port": ""
             },
             "metadata": {
