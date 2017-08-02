@@ -10,11 +10,11 @@ exports.getComponent = ->
   c.description = 'do X'
 
   # Add input ports
-  c.inPorts.add 'Created',
+  c.inPorts.add 'created',
     datatype: 'string'
-  c.inPorts.add 'Support',
+  c.inPorts.add 'support',
     datatype: 'string'
-  c.inPorts.add 'Vote',
+  c.inPorts.add 'vote',
     datatype: 'string'
 
   # Add output ports
