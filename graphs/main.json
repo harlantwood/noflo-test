@@ -167,6 +167,19 @@
             }
         },
         {
+            "src": {
+                "process": "browser-app/DoSomething_f0rqu",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "dom/GetElement_xvz54",
+                "port": "in"
+            },
+            "metadata": {
+                "route": 0
+            }
+        },
+        {
             "data": "#button",
             "tgt": {
                 "process": "dom/GetElement_7amk2",
