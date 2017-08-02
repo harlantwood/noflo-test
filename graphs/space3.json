@@ -1,32 +1,38 @@
 {
-    "id": "abc",
-    "project": "xyz",
+    "caseSensitive": false,
     "properties": {
-        "name": "space-demo",
+        "name": "space3",
         "environment": {
             "runtime": "html",
             "width": 300,
             "height": 300,
-            "content": ""
-        }
+            "content": "",
+            "type": "noflo-browser"
+        },
+        "icon": ""
     },
     "inports": {},
     "outports": {},
+    "groups": [],
     "processes": {
         "CG6fcH6LmNd": {
             "component": "browser-app/Offer",
             "metadata": {
                 "x": 283,
                 "y": 504,
-                "label": "Alice"
+                "label": "Alice",
+                "width": 72,
+                "height": 72
             }
         },
         "8PoibZhrtjp": {
             "component": "browser-app/Offer",
             "metadata": {
-                "x": 297,
-                "y": 478,
-                "label": "Bob"
+                "x": 360,
+                "y": 36,
+                "label": "Bob",
+                "width": 72,
+                "height": 72
             }
         },
         "dn4jYdw3BhS": {
@@ -34,7 +40,9 @@
             "metadata": {
                 "x": 552,
                 "y": 583,
-                "label": "Cynthia"
+                "label": "Cynthia",
+                "width": 72,
+                "height": 72
             }
         },
         "Xunriq9K9Cx": {
@@ -42,7 +50,9 @@
             "metadata": {
                 "x": 617,
                 "y": 481,
-                "label": "Dave"
+                "label": "Dave",
+                "width": 72,
+                "height": 72
             }
         },
         "VehLVqG9v7j": {
@@ -50,7 +60,9 @@
             "metadata": {
                 "x": 304,
                 "y": 594,
-                "label": "Facilitator Role"
+                "label": "Facilitator Role",
+                "width": 72,
+                "height": 72
             }
         },
         "3m15tMeLcK1": {
@@ -58,7 +70,9 @@
             "metadata": {
                 "x": 460,
                 "y": 568,
-                "label": "Open Source Video Editor"
+                "label": "Open Source Video Editor",
+                "width": 72,
+                "height": 72
             }
         },
         "625FKeMxaHR": {
@@ -66,15 +80,19 @@
             "metadata": {
                 "x": 277,
                 "y": 745,
-                "label": "Feature Bounty: splitting tool"
+                "label": "Feature Bounty: splitting tool",
+                "width": 72,
+                "height": 72
             }
         },
         "cAEDDAZ2r7Q": {
             "component": "browser-app/Offer",
             "metadata": {
-                "x": 675,
-                "y": 369,
-                "label": "Vote on proposed solutions"
+                "x": 576,
+                "y": 360,
+                "label": "Vote on proposed solutions",
+                "width": 72,
+                "height": 72
             }
         },
         "ZviMSGUwWSd": {
@@ -82,7 +100,9 @@
             "metadata": {
                 "x": 334,
                 "y": 582,
-                "label": "Anyone can support the parent offer with tokens"
+                "label": "Anyone can support the parent offer with tokens",
+                "width": 72,
+                "height": 72
             }
         },
         "EMVzZB1hEs8": {
@@ -90,7 +110,9 @@
             "metadata": {
                 "x": 489,
                 "y": 512,
-                "label": "Reward Pool"
+                "label": "Reward Pool",
+                "width": 72,
+                "height": 72
             }
         },
         "5QsqTq469D9": {
@@ -98,7 +120,9 @@
             "metadata": {
                 "x": 412,
                 "y": 508,
-                "label": "Solution for: \"splitting tool\""
+                "label": "Solution for: \"splitting tool\"",
+                "width": 72,
+                "height": 72
             }
         }
     },
@@ -106,11 +130,11 @@
         {
             "src": {
                 "process": "CG6fcH6LmNd",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "3m15tMeLcK1",
-                "port": "Create Asset"
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -119,11 +143,11 @@
         {
             "src": {
                 "process": "CG6fcH6LmNd",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "3m15tMeLcK1",
-                "port": "Create Offer"
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -132,7 +156,7 @@
         {
             "src": {
                 "process": "CG6fcH6LmNd",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "VehLVqG9v7j",
@@ -145,7 +169,7 @@
         {
             "src": {
                 "process": "CG6fcH6LmNd",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "3m15tMeLcK1",
@@ -158,11 +182,11 @@
         {
             "src": {
                 "process": "8PoibZhrtjp",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "3m15tMeLcK1",
-                "port": "Create Asset"
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -171,11 +195,11 @@
         {
             "src": {
                 "process": "8PoibZhrtjp",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "3m15tMeLcK1",
-                "port": "Create Offer"
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -184,7 +208,7 @@
         {
             "src": {
                 "process": "dn4jYdw3BhS",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "625FKeMxaHR",
@@ -197,7 +221,7 @@
         {
             "src": {
                 "process": "Xunriq9K9Cx",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "5QsqTq469D9",
@@ -210,7 +234,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "cAEDDAZ2r7Q",
@@ -223,7 +247,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "ZviMSGUwWSd",
@@ -236,7 +260,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "EMVzZB1hEs8",
@@ -249,7 +273,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "cAEDDAZ2r7Q",
@@ -262,7 +286,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "ZviMSGUwWSd",
@@ -275,7 +299,7 @@
         {
             "src": {
                 "process": "625FKeMxaHR",
-                "port": "Created"
+                "port": "created"
             },
             "tgt": {
                 "process": "EMVzZB1hEs8",
