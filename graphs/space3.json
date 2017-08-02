@@ -13,91 +13,91 @@
     "inports": {},
     "outports": {},
     "processes": {
-        "browser-app/DoSomething_GFfoMdE6QtS": {
+        "browser-app/DoSomething_8FjzWrdtFHb": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 225,
-                "y": 714,
+                "x": 617,
+                "y": 211,
                 "label": "Alice"
             }
         },
-        "browser-app/DoSomething_TfwcFPCAf3R": {
+        "browser-app/DoSomething_L5AAT35FSrd": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 748,
-                "y": 396,
+                "x": 565,
+                "y": 358,
                 "label": "Bob"
             }
         },
-        "browser-app/DoSomething_5DrtGgzZZLm": {
+        "browser-app/DoSomething_LZ1N69aGyXZ": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 470,
-                "y": 237,
+                "x": 239,
+                "y": 624,
                 "label": "Cynthia"
             }
         },
-        "browser-app/DoSomething_WPYax7MTTT1": {
+        "browser-app/DoSomething_eXKkmjxnnyw": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 229,
-                "y": 168,
+                "x": 696,
+                "y": 576,
                 "label": "Dave"
             }
         },
-        "browser-app/DoSomething_SHwFRcSdNSG": {
+        "browser-app/DoSomething_czwtT2nNbq8": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 689,
-                "y": 365,
+                "x": 701,
+                "y": 540,
                 "label": "Facilitator Role"
             }
         },
-        "browser-app/DoSomething_i2Hv7mB5ymP": {
+        "browser-app/DoSomething_VorbJdXNPLe": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 175,
-                "y": 287,
+                "x": 340,
+                "y": 595,
                 "label": "Open Source Video Editor"
             }
         },
-        "browser-app/DoSomething_iDaAYrqiA3J": {
+        "browser-app/DoSomething_K8Cd2vZsJqp": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 636,
-                "y": 394,
+                "x": 370,
+                "y": 309,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "browser-app/DoSomething_3iGwrGUJK8o": {
+        "browser-app/DoSomething_XwFnXShuxy2": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 154,
-                "y": 511,
+                "x": 529,
+                "y": 368,
                 "label": "Vote on proposed solutions"
             }
         },
-        "browser-app/DoSomething_eFddMLafCmc": {
+        "browser-app/DoSomething_b32NZ89AZdk": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 500,
-                "y": 678,
+                "x": 542,
+                "y": 254,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "browser-app/DoSomething_RkGsipL2QZ9": {
+        "browser-app/DoSomething_69fmgR9RTvE": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 504,
-                "y": 484,
+                "x": 264,
+                "y": 749,
                 "label": "Reward Pool"
             }
         },
-        "browser-app/DoSomething_JEMXhKRmjq4": {
+        "browser-app/DoSomething_U3tNp44nikB": {
             "metadata": {
                 "component": "browser-app/DoSomething",
-                "x": 202,
-                "y": 454,
+                "x": 316,
+                "y": 519,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -105,11 +105,11 @@
     "connections": [
         {
             "src": {
-                "process": "GFfoMdE6QtS",
+                "process": "8FjzWrdtFHb",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "i2Hv7mB5ymP",
+                "process": "VorbJdXNPLe",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -118,11 +118,11 @@
         },
         {
             "src": {
-                "process": "GFfoMdE6QtS",
+                "process": "8FjzWrdtFHb",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "i2Hv7mB5ymP",
+                "process": "VorbJdXNPLe",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -131,11 +131,11 @@
         },
         {
             "src": {
-                "process": "GFfoMdE6QtS",
+                "process": "8FjzWrdtFHb",
                 "port": "Created"
             },
             "tgt": {
-                "process": "SHwFRcSdNSG",
+                "process": "czwtT2nNbq8",
                 "port": ""
             },
             "metadata": {
@@ -144,11 +144,11 @@
         },
         {
             "src": {
-                "process": "GFfoMdE6QtS",
+                "process": "8FjzWrdtFHb",
                 "port": "Created"
             },
             "tgt": {
-                "process": "i2Hv7mB5ymP",
+                "process": "VorbJdXNPLe",
                 "port": ""
             },
             "metadata": {
@@ -157,11 +157,11 @@
         },
         {
             "src": {
-                "process": "TfwcFPCAf3R",
+                "process": "L5AAT35FSrd",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "i2Hv7mB5ymP",
+                "process": "VorbJdXNPLe",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -170,11 +170,11 @@
         },
         {
             "src": {
-                "process": "TfwcFPCAf3R",
+                "process": "L5AAT35FSrd",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "i2Hv7mB5ymP",
+                "process": "VorbJdXNPLe",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -183,11 +183,11 @@
         },
         {
             "src": {
-                "process": "5DrtGgzZZLm",
+                "process": "LZ1N69aGyXZ",
                 "port": "Created"
             },
             "tgt": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": ""
             },
             "metadata": {
@@ -196,11 +196,11 @@
         },
         {
             "src": {
-                "process": "WPYax7MTTT1",
+                "process": "eXKkmjxnnyw",
                 "port": "Created"
             },
             "tgt": {
-                "process": "JEMXhKRmjq4",
+                "process": "U3tNp44nikB",
                 "port": ""
             },
             "metadata": {
@@ -209,11 +209,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "3iGwrGUJK8o",
+                "process": "XwFnXShuxy2",
                 "port": ""
             },
             "metadata": {
@@ -222,11 +222,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "eFddMLafCmc",
+                "process": "b32NZ89AZdk",
                 "port": ""
             },
             "metadata": {
@@ -235,11 +235,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "RkGsipL2QZ9",
+                "process": "69fmgR9RTvE",
                 "port": ""
             },
             "metadata": {
@@ -248,11 +248,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Created"
             },
             "tgt": {
-                "process": "3iGwrGUJK8o",
+                "process": "XwFnXShuxy2",
                 "port": ""
             },
             "metadata": {
@@ -261,11 +261,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Created"
             },
             "tgt": {
-                "process": "eFddMLafCmc",
+                "process": "b32NZ89AZdk",
                 "port": ""
             },
             "metadata": {
@@ -274,11 +274,11 @@
         },
         {
             "src": {
-                "process": "iDaAYrqiA3J",
+                "process": "K8Cd2vZsJqp",
                 "port": "Created"
             },
             "tgt": {
-                "process": "RkGsipL2QZ9",
+                "process": "69fmgR9RTvE",
                 "port": ""
             },
             "metadata": {
