@@ -180,6 +180,19 @@
             }
         },
         {
+            "src": {
+                "process": "browser-app/DoSomething_f0rqu",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "dom/WriteHtml_fpz6j",
+                "port": "container"
+            },
+            "metadata": {
+                "route": 0
+            }
+        },
+        {
             "data": "#button",
             "tgt": {
                 "process": "dom/GetElement_7amk2",
