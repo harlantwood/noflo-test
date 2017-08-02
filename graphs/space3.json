@@ -1,23 +1,14 @@
 {
     "caseSensitive": false,
-    "properties": {
-        "name": "main",
-        "environment": {
-            "type": "noflo-browser",
-            "content": "<button id='button'>Go!</button>\n<p id='message'></p>"
-        },
-        "icon": ""
-    },
     "id": "abc",
     "project": "xyz",
     "properties": {
         "name": "space-demo",
         "environment": {
-            "runtime": "html",
-            "width": 300,
-            "height": 300,
-            "content": ""
-        }
+            "type": "noflo-browser",
+            "content": "<button id='button'>Go!</button>\n<p id='message'></p>"
+        },
+        "icon": ""
     },
     "inports": {},
     "outports": {},
