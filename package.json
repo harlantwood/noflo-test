@@ -1,0 +1,45 @@
+{
+  "name": "noflo-browser-app",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jon Nordby",
+    "email": "jononor@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noflo/noflo-browser-app.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "noflo": "~0.8.0",
+    "noflo-core": "^0.4.0",
+    "noflo-dom": "^0.1.1",
+    "noflo-interaction": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2",
+    "fbp-loader": "^0.1.1",
+    "grunt": "^1.0.1",
+    "grunt-coffeelint": "^0.0.16",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-gh-pages": "^2.0.0",
+    "grunt-mocha-phantomjs": "^4.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-noflo-browser": "^1.1.2",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.2.0",
+    "noflo-runtime-iframe": "^0.8.0",
+    "noflo-runtime-webrtc": "^0.8.0"
+  },
+  "keywords": [
+    "noflo"
+  ]
+}

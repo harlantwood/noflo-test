@@ -4,101 +4,80 @@
         "name": "main",
         "environment": {
             "type": "noflo-browser",
-            "content": ""
+            "content": "<button id='button'>Go!</button>\n<p id='message'></p>"
         },
-        "description": "ads",
         "icon": ""
     },
     "inports": {},
     "outports": {},
     "groups": [],
     "processes": {
-        "adapters/ObjectToString_r0pwi": {
-            "component": "adapters/ObjectToString",
+        "dom/GetElement_7amk2": {
+            "component": "dom/GetElement",
             "metadata": {
-                "label": "ObjectToString",
-                "x": 360,
-                "y": 324,
+                "label": "dom/GetElement",
+                "x": 0,
+                "y": 216,
                 "width": 72,
                 "height": 72
             }
         },
-        "adapters/PairsToObject_bujnk": {
-            "component": "adapters/PairsToObject",
+        "core/Output_cg49": {
+            "component": "core/Output",
             "metadata": {
-                "label": "PairsToObject",
-                "x": 216,
-                "y": 36,
+                "label": "core/Output",
+                "x": 180,
+                "y": 216,
                 "width": 72,
                 "height": 72
             }
         },
-        "ajax/CorsProxy_jk1c4": {
-            "component": "ajax/CorsProxy",
+        "dom/WriteHtml_fpz6j": {
+            "component": "dom/WriteHtml",
             "metadata": {
-                "label": "CorsProxy",
-                "x": 216,
-                "y": 324,
+                "label": "dom/WriteHtml",
+                "x": 432,
+                "y": 72,
                 "width": 72,
                 "height": 72
             }
         },
-        "ajax/Get_79huk": {
-            "component": "ajax/Get",
+        "dom/GetElement_xvz54": {
+            "component": "dom/GetElement",
             "metadata": {
-                "label": "Get",
-                "x": 72,
-                "y": 36,
+                "label": "dom/GetElement",
+                "x": 36,
+                "y": 0,
                 "width": 72,
                 "height": 72
             }
         },
-        "amd/Configure_3lpvd": {
-            "component": "amd/Configure",
+        "interaction/ListenMouse_1l373": {
+            "component": "interaction/ListenMouse",
             "metadata": {
-                "label": "Configure",
-                "x": 504,
-                "y": 324,
+                "label": "interaction/ListenMouse",
+                "x": -108,
+                "y": 72,
                 "width": 72,
                 "height": 72
             }
         },
-        "canvas/ClearRect_vlev1": {
-            "component": "canvas/ClearRect",
+        "core/Kick_ey1nh": {
+            "component": "core/Kick",
             "metadata": {
-                "label": "ClearRect",
-                "x": 648,
-                "y": 324,
+                "label": "core/Kick",
+                "x": 288,
+                "y": 72,
                 "width": 72,
                 "height": 72
             }
         },
-        "adapters/ObjectToPackets_pg5di": {
-            "component": "adapters/ObjectToPackets",
+        "browser-app/DoSomething_f0rqu": {
+            "component": "browser-app/DoSomething",
             "metadata": {
-                "label": "ObjectToPackets",
-                "x": 504,
-                "y": 36,
-                "width": 72,
-                "height": 72
-            }
-        },
-        "adapters/ObjectToString_3u3jj": {
-            "component": "adapters/ObjectToString",
-            "metadata": {
-                "label": "ObjectToString",
-                "x": 648,
-                "y": 36,
-                "width": 72,
-                "height": 72
-            }
-        },
-        "adapters/PacketsToArray_bvtak": {
-            "component": "adapters/PacketsToArray",
-            "metadata": {
-                "label": "PacketsToArray",
-                "x": 504,
-                "y": 180,
+                "label": "DoSomething",
+                "x": 252,
+                "y": -72,
                 "width": 72,
                 "height": 72
             }
@@ -107,144 +86,22 @@
     "connections": [
         {
             "src": {
-                "process": "amd/Configure_3lpvd",
-                "port": "error"
+                "process": "dom/GetElement_xvz54",
+                "port": "element"
             },
             "tgt": {
-                "process": "canvas/ClearRect_vlev1",
-                "port": "width"
-            },
-            "metadata": {}
+                "process": "dom/WriteHtml_fpz6j",
+                "port": "container"
+            }
         },
         {
             "src": {
-                "process": "canvas/ClearRect_vlev1",
-                "port": "clearrect"
+                "process": "dom/GetElement_7amk2",
+                "port": "element"
             },
             "tgt": {
-                "process": "ajax/Get_79huk",
-                "port": "url"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "ajax/Get_79huk",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/PairsToObject_bujnk",
-                "port": "in"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/PairsToObject_bujnk",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToString_r0pwi",
-                "port": "in"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/ObjectToString_r0pwi",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "amd/Configure_3lpvd",
-                "port": "config"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "ajax/CorsProxy_jk1c4",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToString_r0pwi",
-                "port": "delim"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "ajax/Get_79huk",
-                "port": "error"
-            },
-            "tgt": {
-                "process": "ajax/CorsProxy_jk1c4",
-                "port": "in"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "ajax/Get_79huk",
-                "port": "load"
-            },
-            "tgt": {
-                "process": "canvas/ClearRect_vlev1",
-                "port": "height"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "amd/Configure_3lpvd",
-                "port": "ready"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToString_r0pwi",
-                "port": "assoc"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/PacketsToArray_bvtak",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "canvas/ClearRect_vlev1",
-                "port": "point"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/ObjectToString_3u3jj",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToPackets_pg5di",
-                "port": "in"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/ObjectToPackets_pg5di",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToString_3u3jj",
-                "port": "assoc"
-            },
-            "metadata": {}
-        },
-        {
-            "src": {
-                "process": "adapters/PairsToObject_bujnk",
-                "port": "out"
-            },
-            "tgt": {
-                "process": "adapters/ObjectToPackets_pg5di",
-                "port": "in"
+                "process": "interaction/ListenMouse_1l373",
+                "port": "element"
             },
             "metadata": {
                 "route": 0
@@ -252,15 +109,82 @@
         },
         {
             "src": {
-                "process": "adapters/ObjectToString_r0pwi",
+                "process": "dom/GetElement_7amk2",
+                "port": "error"
+            },
+            "tgt": {
+                "process": "core/Output_cg49",
+                "port": "in"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "dom/GetElement_xvz54",
+                "port": "error"
+            },
+            "tgt": {
+                "process": "core/Output_cg49",
+                "port": "in"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "interaction/ListenMouse_1l373",
+                "port": "click"
+            },
+            "tgt": {
+                "process": "core/Kick_ey1nh",
+                "port": "in"
+            }
+        },
+        {
+            "src": {
+                "process": "core/Kick_ey1nh",
                 "port": "out"
             },
             "tgt": {
-                "process": "adapters/ObjectToPackets_pg5di",
-                "port": "depth"
+                "process": "dom/WriteHtml_fpz6j",
+                "port": "html"
+            }
+        },
+        {
+            "src": {
+                "process": "dom/GetElement_xvz54",
+                "port": "element"
+            },
+            "tgt": {
+                "process": "browser-app/DoSomething_f0rqu",
+                "port": "in"
             },
             "metadata": {
                 "route": 0
+            }
+        },
+        {
+            "data": "#button",
+            "tgt": {
+                "process": "dom/GetElement_7amk2",
+                "port": "selector"
+            }
+        },
+        {
+            "data": "#message",
+            "tgt": {
+                "process": "dom/GetElement_xvz54",
+                "port": "selector"
+            }
+        },
+        {
+            "data": "Hello World!",
+            "tgt": {
+                "process": "core/Kick_ey1nh",
+                "port": "data"
             }
         }
     ]
