@@ -1,139 +1,125 @@
 {
     "caseSensitive": false,
     "properties": {
-        "name": "space3",
+        "name": "main",
+        "environment": {
+            "type": "noflo-browser",
+            "content": "<button id='button'>Go!</button>\n<p id='message'></p>"
+        },
+        "icon": ""
+    },
+    "id": "abc",
+    "project": "xyz",
+    "properties": {
+        "name": "space-demo",
         "environment": {
             "runtime": "html",
             "width": 300,
             "height": 300,
-            "content": "",
-            "type": "noflo-browser"
+            "content": ""
         }
     },
     "inports": {},
     "outports": {},
-    "groups": [],
     "processes": {
-        "HV56TTYg7iM": {
+        "browser-app/DoSomething_8FjzWrdtFHb": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 36,
-                "y": 324,
-                "label": "Alice",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 617,
+                "y": 211,
+                "label": "Alice"
             }
         },
-        "7pdTkVbRwQB": {
+        "browser-app/DoSomething_L5AAT35FSrd": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 36,
-                "y": 180,
-                "label": "Bob",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 565,
+                "y": 358,
+                "label": "Bob"
             }
         },
-        "9DFSVGZNHks": {
+        "browser-app/DoSomething_LZ1N69aGyXZ": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 36,
-                "y": 468,
-                "label": "Cynthia",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 239,
+                "y": 624,
+                "label": "Cynthia"
             }
         },
-        "Z5det2CEg9u": {
+        "browser-app/DoSomething_eXKkmjxnnyw": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 36,
-                "y": 36,
-                "label": "Dave",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 696,
+                "y": 576,
+                "label": "Dave"
             }
         },
-        "Zk9CS1GhDAg": {
+        "browser-app/DoSomething_czwtT2nNbq8": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 144,
-                "y": 324,
-                "label": "Facilitator Role",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 701,
+                "y": 540,
+                "label": "Facilitator Role"
             }
         },
-        "QmD57Le2Yfg": {
+        "browser-app/DoSomething_VorbJdXNPLe": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 144,
-                "y": 180,
-                "label": "Open Source Video Editor",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 340,
+                "y": 595,
+                "label": "Open Source Video Editor"
             }
         },
-        "5GBszqqCrjj": {
+        "browser-app/DoSomething_K8Cd2vZsJqp": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 144,
-                "y": 468,
-                "label": "Feature Bounty: splitting tool",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 370,
+                "y": 309,
+                "label": "Feature Bounty: splitting tool"
             }
         },
-        "VE7JDu27MzM": {
+        "browser-app/DoSomething_XwFnXShuxy2": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 432,
-                "y": 180,
-                "label": "Vote on proposed solutions",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 529,
+                "y": 368,
+                "label": "Vote on proposed solutions"
             }
         },
-        "MiLbaWkQPeQ": {
+        "browser-app/DoSomething_b32NZ89AZdk": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 468,
-                "y": 324,
-                "label": "Anyone can support the parent offer with tokens",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 542,
+                "y": 254,
+                "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "CztGoiCkczH": {
+        "browser-app/DoSomething_69fmgR9RTvE": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 468,
-                "y": 468,
-                "label": "Reward Pool",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 264,
+                "y": 749,
+                "label": "Reward Pool"
             }
         },
-        "agpsgKTDrPN": {
+        "browser-app/DoSomething_U3tNp44nikB": {
             "metadata": {
-                "component": "browser-app/Offer",
-                "x": 144,
-                "y": 36,
-                "label": "Solution for: \"splitting tool\"",
-                "width": 72,
-                "height": 72
+                "component": "browser-app/DoSomething",
+                "x": 316,
+                "y": 519,
+                "label": "Solution for: \"splitting tool\""
             }
         }
     },
     "connections": [
         {
             "src": {
-                "process": "HV56TTYg7iM",
-                "port": "capability"
+                "process": "8FjzWrdtFHb",
+                "port": "Capability"
             },
             "tgt": {
-                "process": "QmD57Le2Yfg",
-                "port": "create asset"
+                "process": "VorbJdXNPLe",
+                "port": "Create Asset"
             },
             "metadata": {
                 "route": 1
@@ -141,12 +127,12 @@
         },
         {
             "src": {
-                "process": "HV56TTYg7iM",
-                "port": "capability"
+                "process": "8FjzWrdtFHb",
+                "port": "Capability"
             },
             "tgt": {
-                "process": "QmD57Le2Yfg",
-                "port": "create offer"
+                "process": "VorbJdXNPLe",
+                "port": "Create Offer"
             },
             "metadata": {
                 "route": 1
@@ -154,11 +140,11 @@
         },
         {
             "src": {
-                "process": "HV56TTYg7iM",
-                "port": "created"
+                "process": "8FjzWrdtFHb",
+                "port": "Created"
             },
             "tgt": {
-                "process": "Zk9CS1GhDAg",
+                "process": "czwtT2nNbq8",
                 "port": ""
             },
             "metadata": {
@@ -167,11 +153,11 @@
         },
         {
             "src": {
-                "process": "HV56TTYg7iM",
-                "port": "created"
+                "process": "8FjzWrdtFHb",
+                "port": "Created"
             },
             "tgt": {
-                "process": "QmD57Le2Yfg",
+                "process": "VorbJdXNPLe",
                 "port": ""
             },
             "metadata": {
@@ -180,12 +166,12 @@
         },
         {
             "src": {
-                "process": "7pdTkVbRwQB",
-                "port": "capability"
+                "process": "L5AAT35FSrd",
+                "port": "Capability"
             },
             "tgt": {
-                "process": "QmD57Le2Yfg",
-                "port": "create asset"
+                "process": "VorbJdXNPLe",
+                "port": "Create Asset"
             },
             "metadata": {
                 "route": 1
@@ -193,12 +179,12 @@
         },
         {
             "src": {
-                "process": "7pdTkVbRwQB",
-                "port": "capability"
+                "process": "L5AAT35FSrd",
+                "port": "Capability"
             },
             "tgt": {
-                "process": "QmD57Le2Yfg",
-                "port": "create offer"
+                "process": "VorbJdXNPLe",
+                "port": "Create Offer"
             },
             "metadata": {
                 "route": 1
@@ -206,11 +192,11 @@
         },
         {
             "src": {
-                "process": "9DFSVGZNHks",
-                "port": "created"
+                "process": "LZ1N69aGyXZ",
+                "port": "Created"
             },
             "tgt": {
-                "process": "5GBszqqCrjj",
+                "process": "K8Cd2vZsJqp",
                 "port": ""
             },
             "metadata": {
@@ -219,11 +205,11 @@
         },
         {
             "src": {
-                "process": "Z5det2CEg9u",
-                "port": "created"
+                "process": "eXKkmjxnnyw",
+                "port": "Created"
             },
             "tgt": {
-                "process": "agpsgKTDrPN",
+                "process": "U3tNp44nikB",
                 "port": ""
             },
             "metadata": {
@@ -232,11 +218,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "suboffer"
+                "process": "K8Cd2vZsJqp",
+                "port": "Suboffer"
             },
             "tgt": {
-                "process": "VE7JDu27MzM",
+                "process": "XwFnXShuxy2",
                 "port": ""
             },
             "metadata": {
@@ -245,11 +231,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "suboffer"
+                "process": "K8Cd2vZsJqp",
+                "port": "Suboffer"
             },
             "tgt": {
-                "process": "MiLbaWkQPeQ",
+                "process": "b32NZ89AZdk",
                 "port": ""
             },
             "metadata": {
@@ -258,11 +244,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "suboffer"
+                "process": "K8Cd2vZsJqp",
+                "port": "Suboffer"
             },
             "tgt": {
-                "process": "CztGoiCkczH",
+                "process": "69fmgR9RTvE",
                 "port": ""
             },
             "metadata": {
@@ -271,11 +257,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "created"
+                "process": "K8Cd2vZsJqp",
+                "port": "Created"
             },
             "tgt": {
-                "process": "VE7JDu27MzM",
+                "process": "XwFnXShuxy2",
                 "port": ""
             },
             "metadata": {
@@ -284,11 +270,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "created"
+                "process": "K8Cd2vZsJqp",
+                "port": "Created"
             },
             "tgt": {
-                "process": "MiLbaWkQPeQ",
+                "process": "b32NZ89AZdk",
                 "port": ""
             },
             "metadata": {
@@ -297,11 +283,11 @@
         },
         {
             "src": {
-                "process": "5GBszqqCrjj",
-                "port": "created"
+                "process": "K8Cd2vZsJqp",
+                "port": "Created"
             },
             "tgt": {
-                "process": "CztGoiCkczH",
+                "process": "69fmgR9RTvE",
                 "port": ""
             },
             "metadata": {
