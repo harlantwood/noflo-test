@@ -1,13 +1,15 @@
 {
     "caseSensitive": false,
     "properties": {
-        "name": "space-demo",
+        "name": "space3",
         "environment": {
             "runtime": "html",
             "width": 300,
             "height": 300,
-            "content": ""
-        }
+            "content": "",
+            "type": "noflo-browser"
+        },
+        "icon": ""
     },
     "inports": {},
     "outports": {},
@@ -16,89 +18,111 @@
         "6VCZ3US8iFB": {
             "component": "space/Agent",
             "metadata": {
-                "x": 449,
-                "y": 716,
-                "label": "Alice"
+                "x": 36,
+                "y": 180,
+                "label": "Alice",
+                "width": 72,
+                "height": 72
             }
         },
         "TumLHzaZZYv": {
             "component": "space/Agent",
             "metadata": {
-                "x": 157,
-                "y": 742,
-                "label": "Bob"
+                "x": 36,
+                "y": 36,
+                "label": "Bob",
+                "width": 72,
+                "height": 72
             }
         },
         "2nP1GqR2cCK": {
             "component": "space/Agent",
             "metadata": {
-                "x": 353,
-                "y": 229,
-                "label": "Cynthia"
+                "x": 36,
+                "y": 504,
+                "label": "Cynthia",
+                "width": 72,
+                "height": 72
             }
         },
         "DfHj15qBqp8": {
             "component": "space/Agent",
             "metadata": {
-                "x": 690,
-                "y": 497,
-                "label": "Dave"
+                "x": 36,
+                "y": 360,
+                "label": "Dave",
+                "width": 72,
+                "height": 72
             }
         },
         "fUhEQqxDqgM": {
             "component": "space/Role",
             "metadata": {
-                "x": 321,
-                "y": 569,
-                "label": "Facilitator Role"
+                "x": 144,
+                "y": 180,
+                "label": "Facilitator Role",
+                "width": 72,
+                "height": 72
             }
         },
         "P1ekHTFtEC7": {
             "component": "space/Constellation",
             "metadata": {
-                "x": 550,
-                "y": 194,
-                "label": "Open Source Video Editor"
+                "x": 144,
+                "y": 36,
+                "label": "Open Source Video Editor",
+                "width": 72,
+                "height": 72
             }
         },
         "cyoz8RHupbd": {
             "component": "space/Offer",
             "metadata": {
-                "x": 644,
-                "y": 645,
-                "label": "Feature Bounty: splitting tool"
+                "x": 144,
+                "y": 468,
+                "label": "Feature Bounty: splitting tool",
+                "width": 72,
+                "height": 72
             }
         },
         "9qy31UW7FaV": {
             "component": "space/Offer",
             "metadata": {
-                "x": 383,
-                "y": 231,
-                "label": "Vote on proposed solutions"
+                "x": 684,
+                "y": 576,
+                "label": "Vote on proposed solutions",
+                "width": 72,
+                "height": 72
             }
         },
         "5KA63TK2NwR": {
             "component": "space/Offer",
             "metadata": {
-                "x": 473,
-                "y": 392,
-                "label": "Anyone can support the parent offer with tokens"
+                "x": 504,
+                "y": 216,
+                "label": "Anyone can support the parent offer with tokens",
+                "width": 72,
+                "height": 72
             }
         },
         "Ypy7yfZhTRq": {
             "component": "space/Offer",
             "metadata": {
-                "x": 567,
-                "y": 343,
-                "label": "Reward Pool"
+                "x": 540,
+                "y": 432,
+                "label": "Reward Pool",
+                "width": 72,
+                "height": 72
             }
         },
         "WbRQQ4LBHsC": {
             "component": "space/Offer",
             "metadata": {
-                "x": 264,
-                "y": 305,
-                "label": "Solution for: \"splitting tool\""
+                "x": 144,
+                "y": 324,
+                "label": "Solution for: \"splitting tool\"",
+                "width": 72,
+                "height": 72
             }
         }
     },
@@ -106,11 +130,11 @@
         {
             "src": {
                 "process": "6VCZ3US8iFB",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "P1ekHTFtEC7",
-                "port": "Create Asset"
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -119,11 +143,11 @@
         {
             "src": {
                 "process": "6VCZ3US8iFB",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "P1ekHTFtEC7",
-                "port": "Create Offer"
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -132,11 +156,11 @@
         {
             "src": {
                 "process": "6VCZ3US8iFB",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "fUhEQqxDqgM",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -145,11 +169,11 @@
         {
             "src": {
                 "process": "6VCZ3US8iFB",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "P1ekHTFtEC7",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -158,11 +182,11 @@
         {
             "src": {
                 "process": "TumLHzaZZYv",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "P1ekHTFtEC7",
-                "port": "Create Asset"
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -171,11 +195,11 @@
         {
             "src": {
                 "process": "TumLHzaZZYv",
-                "port": "Capability"
+                "port": "capability"
             },
             "tgt": {
                 "process": "P1ekHTFtEC7",
-                "port": "Create Offer"
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -184,11 +208,11 @@
         {
             "src": {
                 "process": "2nP1GqR2cCK",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "cyoz8RHupbd",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -197,11 +221,11 @@
         {
             "src": {
                 "process": "DfHj15qBqp8",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "WbRQQ4LBHsC",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -210,11 +234,11 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "9qy31UW7FaV",
-                "port": "Vote"
+                "port": "vote"
             },
             "metadata": {
                 "route": 3
@@ -223,11 +247,11 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "5KA63TK2NwR",
-                "port": "Support"
+                "port": "support"
             },
             "metadata": {
                 "route": 3
@@ -236,7 +260,7 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Suboffer"
+                "port": "suboffer"
             },
             "tgt": {
                 "process": "Ypy7yfZhTRq",
@@ -249,11 +273,11 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "9qy31UW7FaV",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -262,11 +286,11 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "5KA63TK2NwR",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
@@ -275,11 +299,11 @@
         {
             "src": {
                 "process": "cyoz8RHupbd",
-                "port": "Creates"
+                "port": "creates"
             },
             "tgt": {
                 "process": "Ypy7yfZhTRq",
-                "port": "Created"
+                "port": "created"
             },
             "metadata": {
                 "route": 2
