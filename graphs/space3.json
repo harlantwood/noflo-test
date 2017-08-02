@@ -1,3 +1,14 @@
+Agent
+Agent
+Agent
+Agent
+Role
+Constellation
+Offer
+Offer
+Offer
+Offer
+Offer
 {
     "id": "abc",
     "project": "xyz",
@@ -13,91 +24,91 @@
     "inports": {},
     "outports": {},
     "processes": {
-        "TR8cPvuDCF1": {
+        "467tYXycj82": {
             "metadata": {
                 "component": "Agent",
-                "x": 164,
-                "y": 167,
+                "x": 395,
+                "y": 299,
                 "label": "Alice"
             }
         },
-        "SaVUG6FvxLS": {
+        "FqgY2WT6h7C": {
             "metadata": {
                 "component": "Agent",
-                "x": 385,
-                "y": 267,
+                "x": 708,
+                "y": 373,
                 "label": "Bob"
             }
         },
-        "KzwkYTgcN9": {
+        "CH7FTuz15XT": {
             "metadata": {
                 "component": "Agent",
-                "x": 208,
-                "y": 167,
+                "x": 375,
+                "y": 209,
                 "label": "Cynthia"
             }
         },
-        "hRhUozZuMuB": {
+        "HQs3VqzsQZe": {
             "metadata": {
                 "component": "Agent",
-                "x": 652,
-                "y": 569,
+                "x": 630,
+                "y": 202,
                 "label": "Dave"
             }
         },
-        "iUGx7LP8awk": {
+        "3RBAmAvUhKR": {
             "metadata": {
-                "component": "Role",
-                "x": 271,
-                "y": 533,
+                "component": "Agent",
+                "x": 487,
+                "y": 489,
                 "label": "Facilitator Role"
             }
         },
-        "aijJsaiPKQ5": {
+        "D1xziBazTh7": {
             "metadata": {
-                "component": "Constellation",
-                "x": 490,
-                "y": 730,
+                "component": "Agent",
+                "x": 197,
+                "y": 630,
                 "label": "Open Source Video Editor"
             }
         },
-        "3KSPoddsjPh": {
+        "gnvWeN1Utj4": {
             "metadata": {
-                "component": "Offer",
-                "x": 723,
-                "y": 602,
+                "component": "Agent",
+                "x": 399,
+                "y": 693,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "aMdegDpQb98": {
+        "bMhkxsazzct": {
             "metadata": {
-                "component": "Offer",
-                "x": 580,
-                "y": 201,
+                "component": "Agent",
+                "x": 471,
+                "y": 387,
                 "label": "Vote on proposed solutions"
             }
         },
-        "AWRbg9bsfjC": {
+        "VMuVH739j8k": {
             "metadata": {
-                "component": "Offer",
-                "x": 320,
-                "y": 167,
+                "component": "Agent",
+                "x": 196,
+                "y": 714,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "C7j8inVhqZi": {
+        "37LE3dbEAo3": {
             "metadata": {
-                "component": "Offer",
-                "x": 557,
-                "y": 519,
+                "component": "Agent",
+                "x": 646,
+                "y": 501,
                 "label": "Reward Pool"
             }
         },
-        "ZwDqUNS7VAe": {
+        "TardDfXnudY": {
             "metadata": {
-                "component": "Offer",
-                "x": 313,
-                "y": 244,
+                "component": "Agent",
+                "x": 359,
+                "y": 664,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -105,11 +116,11 @@
     "connections": [
         {
             "src": {
-                "process": "TR8cPvuDCF1",
+                "process": "467tYXycj82",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "aijJsaiPKQ5",
+                "process": "D1xziBazTh7",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -118,11 +129,11 @@
         },
         {
             "src": {
-                "process": "TR8cPvuDCF1",
+                "process": "467tYXycj82",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "aijJsaiPKQ5",
+                "process": "D1xziBazTh7",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -131,11 +142,11 @@
         },
         {
             "src": {
-                "process": "TR8cPvuDCF1",
+                "process": "467tYXycj82",
                 "port": "Created"
             },
             "tgt": {
-                "process": "iUGx7LP8awk",
+                "process": "3RBAmAvUhKR",
                 "port": ""
             },
             "metadata": {
@@ -144,11 +155,11 @@
         },
         {
             "src": {
-                "process": "TR8cPvuDCF1",
+                "process": "467tYXycj82",
                 "port": "Created"
             },
             "tgt": {
-                "process": "aijJsaiPKQ5",
+                "process": "D1xziBazTh7",
                 "port": ""
             },
             "metadata": {
@@ -157,11 +168,11 @@
         },
         {
             "src": {
-                "process": "SaVUG6FvxLS",
+                "process": "FqgY2WT6h7C",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "aijJsaiPKQ5",
+                "process": "D1xziBazTh7",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -170,11 +181,11 @@
         },
         {
             "src": {
-                "process": "SaVUG6FvxLS",
+                "process": "FqgY2WT6h7C",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "aijJsaiPKQ5",
+                "process": "D1xziBazTh7",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -183,11 +194,11 @@
         },
         {
             "src": {
-                "process": "KzwkYTgcN9",
+                "process": "CH7FTuz15XT",
                 "port": "Created"
             },
             "tgt": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": ""
             },
             "metadata": {
@@ -196,11 +207,11 @@
         },
         {
             "src": {
-                "process": "hRhUozZuMuB",
+                "process": "HQs3VqzsQZe",
                 "port": "Created"
             },
             "tgt": {
-                "process": "ZwDqUNS7VAe",
+                "process": "TardDfXnudY",
                 "port": ""
             },
             "metadata": {
@@ -209,11 +220,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "aMdegDpQb98",
+                "process": "bMhkxsazzct",
                 "port": ""
             },
             "metadata": {
@@ -222,11 +233,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "AWRbg9bsfjC",
+                "process": "VMuVH739j8k",
                 "port": ""
             },
             "metadata": {
@@ -235,11 +246,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "C7j8inVhqZi",
+                "process": "37LE3dbEAo3",
                 "port": ""
             },
             "metadata": {
@@ -248,11 +259,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Created"
             },
             "tgt": {
-                "process": "aMdegDpQb98",
+                "process": "bMhkxsazzct",
                 "port": ""
             },
             "metadata": {
@@ -261,11 +272,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Created"
             },
             "tgt": {
-                "process": "AWRbg9bsfjC",
+                "process": "VMuVH739j8k",
                 "port": ""
             },
             "metadata": {
@@ -274,11 +285,11 @@
         },
         {
             "src": {
-                "process": "3KSPoddsjPh",
+                "process": "gnvWeN1Utj4",
                 "port": "Created"
             },
             "tgt": {
-                "process": "C7j8inVhqZi",
+                "process": "37LE3dbEAo3",
                 "port": ""
             },
             "metadata": {
