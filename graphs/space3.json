@@ -13,94 +13,277 @@
     "inports": {},
     "outports": {},
     "processes": {
-        "XyXoHC9i5i": {
+        "HV56TTYg7iM": {
             "metadata": {
-                "component": "Offer",
-                "x": 409,
-                "y": 622,
+                "component": "browser-app/Offer",
+                "x": 467,
+                "y": 451,
                 "label": "Alice"
             }
         },
-        "FGGdk6zXsJ": {
+        "7pdTkVbRwQB": {
             "metadata": {
-                "component": "Offer",
-                "x": 667,
-                "y": 216,
+                "component": "browser-app/Offer",
+                "x": 259,
+                "y": 479,
                 "label": "Bob"
             }
         },
-        "9UXh64ua1hu": {
+        "9DFSVGZNHks": {
             "metadata": {
-                "component": "Offer",
-                "x": 179,
-                "y": 742,
+                "component": "browser-app/Offer",
+                "x": 312,
+                "y": 199,
                 "label": "Cynthia"
             }
         },
-        "jEH4UsVHKaa": {
+        "Z5det2CEg9u": {
             "metadata": {
-                "component": "Offer",
-                "x": 430,
-                "y": 437,
+                "component": "browser-app/Offer",
+                "x": 428,
+                "y": 616,
                 "label": "Dave"
             }
         },
-        "ETdRUYibbeP": {
+        "Zk9CS1GhDAg": {
             "metadata": {
-                "component": "Offer",
-                "x": 156,
-                "y": 685,
+                "component": "browser-app/Offer",
+                "x": 594,
+                "y": 714,
                 "label": "Facilitator Role"
             }
         },
-        "hRGF2VnEa97": {
+        "QmD57Le2Yfg": {
             "metadata": {
-                "component": "Offer",
-                "x": 258,
-                "y": 431,
+                "component": "browser-app/Offer",
+                "x": 402,
+                "y": 310,
                 "label": "Open Source Video Editor"
             }
         },
-        "8mRUPhQQ8Af": {
+        "5GBszqqCrjj": {
             "metadata": {
-                "component": "Offer",
-                "x": 211,
-                "y": 476,
+                "component": "browser-app/Offer",
+                "x": 509,
+                "y": 217,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "D9eZSvEMpmP": {
+        "VE7JDu27MzM": {
             "metadata": {
-                "component": "Offer",
-                "x": 595,
-                "y": 381,
+                "component": "browser-app/Offer",
+                "x": 607,
+                "y": 685,
                 "label": "Vote on proposed solutions"
             }
         },
-        "gKYJQjqPnZn": {
+        "MiLbaWkQPeQ": {
             "metadata": {
-                "component": "Offer",
-                "x": 200,
-                "y": 531,
+                "component": "browser-app/Offer",
+                "x": 573,
+                "y": 275,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "augYqo9uvAQ": {
+        "CztGoiCkczH": {
             "metadata": {
-                "component": "Offer",
-                "x": 680,
-                "y": 685,
+                "component": "browser-app/Offer",
+                "x": 293,
+                "y": 354,
                 "label": "Reward Pool"
             }
         },
-        "e2Zkykv6rB3": {
+        "agpsgKTDrPN": {
             "metadata": {
-                "component": "Offer",
-                "x": 735,
-                "y": 696,
+                "component": "browser-app/Offer",
+                "x": 410,
+                "y": 305,
                 "label": "Solution for: \"splitting tool\""
             }
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "HV56TTYg7iM",
+                "port": "Capability"
+            },
+            "tgt": {
+                "process": "QmD57Le2Yfg",
+                "port": "Create Asset"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "HV56TTYg7iM",
+                "port": "Capability"
+            },
+            "tgt": {
+                "process": "QmD57Le2Yfg",
+                "port": "Create Offer"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "HV56TTYg7iM",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "Zk9CS1GhDAg",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "HV56TTYg7iM",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "QmD57Le2Yfg",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "7pdTkVbRwQB",
+                "port": "Capability"
+            },
+            "tgt": {
+                "process": "QmD57Le2Yfg",
+                "port": "Create Asset"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "7pdTkVbRwQB",
+                "port": "Capability"
+            },
+            "tgt": {
+                "process": "QmD57Le2Yfg",
+                "port": "Create Offer"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "9DFSVGZNHks",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "5GBszqqCrjj",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "Z5det2CEg9u",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "agpsgKTDrPN",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Suboffer"
+            },
+            "tgt": {
+                "process": "VE7JDu27MzM",
+                "port": ""
+            },
+            "metadata": {
+                "route": 3
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Suboffer"
+            },
+            "tgt": {
+                "process": "MiLbaWkQPeQ",
+                "port": ""
+            },
+            "metadata": {
+                "route": 3
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Suboffer"
+            },
+            "tgt": {
+                "process": "CztGoiCkczH",
+                "port": ""
+            },
+            "metadata": {
+                "route": 3
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "VE7JDu27MzM",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "MiLbaWkQPeQ",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "5GBszqqCrjj",
+                "port": "Created"
+            },
+            "tgt": {
+                "process": "CztGoiCkczH",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        }
+    ]
 }
