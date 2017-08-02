@@ -13,80 +13,80 @@
     "inports": {},
     "outports": {},
     "processes": {
-        "a5NnMmf6JH8": {
+        "JLhCPSK9vRK": {
             "metadata": {
-                "x": 554,
-                "y": 549,
+                "x": 239,
+                "y": 508,
                 "label": "Alice"
             }
         },
-        "fMMN9SifHX6": {
+        "K7QUp27mp95": {
             "metadata": {
-                "x": 352,
-                "y": 545,
+                "x": 172,
+                "y": 185,
                 "label": "Bob"
             }
         },
-        "HTknFmyrGMu": {
+        "SkGeC9g4rZh": {
             "metadata": {
-                "x": 360,
-                "y": 497,
+                "x": 413,
+                "y": 241,
                 "label": "Cynthia"
             }
         },
-        "WyWJnDT34uU": {
+        "7gP9A9pVpDD": {
             "metadata": {
-                "x": 591,
-                "y": 67,
+                "x": 642,
+                "y": 548,
                 "label": "Dave"
             }
         },
-        "2JgszUCjqfB": {
+        "QbXnmKECTdS": {
             "metadata": {
-                "x": 347,
-                "y": 298,
+                "x": 301,
+                "y": 387,
                 "label": "Facilitator Role"
             }
         },
-        "ftNRTywzEuH": {
+        "YrG9wpugqsq": {
             "metadata": {
-                "x": 129,
-                "y": 122,
+                "x": 222,
+                "y": 423,
                 "label": "Open Source Video Editor"
             }
         },
-        "itz5BVgTLhm": {
+        "hLtPKMFK5vP": {
             "metadata": {
-                "x": 454,
-                "y": 227,
+                "x": 460,
+                "y": 722,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "P5Jgv7oAVNA": {
+        "LqRUL14ELnz": {
             "metadata": {
-                "x": 12,
-                "y": 20,
+                "x": 481,
+                "y": 164,
                 "label": "Vote on proposed solutions"
             }
         },
-        "XkGc2FQxx9B": {
+        "dReJmTMFvaK": {
             "metadata": {
-                "x": 502,
-                "y": 370,
+                "x": 659,
+                "y": 506,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "X1pWFswmB5b": {
+        "7agpBM4Pn7A": {
             "metadata": {
-                "x": 193,
-                "y": 507,
+                "x": 379,
+                "y": 634,
                 "label": "Reward Pool"
             }
         },
-        "KyVzjYsdAMs": {
+        "9nNMoY7KNKz": {
             "metadata": {
-                "x": 480,
-                "y": 589,
+                "x": 541,
+                "y": 399,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -94,11 +94,11 @@
     "connections": [
         {
             "src": {
-                "process": "a5NnMmf6JH8",
+                "process": "JLhCPSK9vRK",
                 "port": ""
             },
             "tgt": {
-                "process": "ftNRTywzEuH",
+                "process": "YrG9wpugqsq",
                 "port": ""
             },
             "metadata": {
@@ -107,11 +107,11 @@
         },
         {
             "src": {
-                "process": "a5NnMmf6JH8",
+                "process": "JLhCPSK9vRK",
                 "port": ""
             },
             "tgt": {
-                "process": "ftNRTywzEuH",
+                "process": "YrG9wpugqsq",
                 "port": ""
             },
             "metadata": {
@@ -120,11 +120,11 @@
         },
         {
             "src": {
-                "process": "a5NnMmf6JH8",
+                "process": "JLhCPSK9vRK",
                 "port": ""
             },
             "tgt": {
-                "process": "2JgszUCjqfB",
+                "process": "QbXnmKECTdS",
                 "port": ""
             },
             "metadata": {
@@ -133,11 +133,11 @@
         },
         {
             "src": {
-                "process": "a5NnMmf6JH8",
+                "process": "JLhCPSK9vRK",
                 "port": ""
             },
             "tgt": {
-                "process": "ftNRTywzEuH",
+                "process": "YrG9wpugqsq",
                 "port": ""
             },
             "metadata": {
@@ -146,11 +146,11 @@
         },
         {
             "src": {
-                "process": "fMMN9SifHX6",
+                "process": "K7QUp27mp95",
                 "port": ""
             },
             "tgt": {
-                "process": "ftNRTywzEuH",
+                "process": "YrG9wpugqsq",
                 "port": ""
             },
             "metadata": {
@@ -159,11 +159,11 @@
         },
         {
             "src": {
-                "process": "fMMN9SifHX6",
+                "process": "K7QUp27mp95",
                 "port": ""
             },
             "tgt": {
-                "process": "ftNRTywzEuH",
+                "process": "YrG9wpugqsq",
                 "port": ""
             },
             "metadata": {
@@ -172,11 +172,11 @@
         },
         {
             "src": {
-                "process": "HTknFmyrGMu",
+                "process": "SkGeC9g4rZh",
                 "port": ""
             },
             "tgt": {
-                "process": "itz5BVgTLhm",
+                "process": "hLtPKMFK5vP",
                 "port": ""
             },
             "metadata": {
@@ -185,11 +185,11 @@
         },
         {
             "src": {
-                "process": "WyWJnDT34uU",
+                "process": "7gP9A9pVpDD",
                 "port": ""
             },
             "tgt": {
-                "process": "KyVzjYsdAMs",
+                "process": "9nNMoY7KNKz",
                 "port": ""
             },
             "metadata": {
@@ -198,11 +198,11 @@
         },
         {
             "src": {
-                "process": "itz5BVgTLhm",
+                "process": "hLtPKMFK5vP",
                 "port": ""
             },
             "tgt": {
-                "process": "P5Jgv7oAVNA",
+                "process": "LqRUL14ELnz",
                 "port": ""
             },
             "metadata": {
@@ -211,11 +211,11 @@
         },
         {
             "src": {
-                "process": "itz5BVgTLhm",
+                "process": "hLtPKMFK5vP",
                 "port": ""
             },
             "tgt": {
-                "process": "XkGc2FQxx9B",
+                "process": "dReJmTMFvaK",
                 "port": ""
             },
             "metadata": {
@@ -224,11 +224,11 @@
         },
         {
             "src": {
-                "process": "itz5BVgTLhm",
+                "process": "hLtPKMFK5vP",
                 "port": ""
             },
             "tgt": {
-                "process": "X1pWFswmB5b",
+                "process": "7agpBM4Pn7A",
                 "port": ""
             },
             "metadata": {
