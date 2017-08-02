@@ -1,14 +1,3 @@
-Agent
-Agent
-Agent
-Agent
-Role
-Constellation
-Offer
-Offer
-Offer
-Offer
-Offer
 {
     "id": "abc",
     "project": "xyz",
@@ -24,91 +13,91 @@ Offer
     "inports": {},
     "outports": {},
     "processes": {
-        "DaRBN5zzGXE": {
+        "6WXMrbeP76e": {
             "metadata": {
                 "component": "Offer",
-                "x": 329,
-                "y": 626,
+                "x": 166,
+                "y": 411,
                 "label": "Alice"
             }
         },
-        "3x7jrzxMUnh": {
+        "9QZQ4386itX": {
             "metadata": {
                 "component": "Offer",
-                "x": 737,
-                "y": 338,
+                "x": 170,
+                "y": 253,
                 "label": "Bob"
             }
         },
-        "4t6YyNxJaPt": {
+        "fGzW3ZzafNa": {
             "metadata": {
                 "component": "Offer",
-                "x": 176,
-                "y": 629,
+                "x": 638,
+                "y": 214,
                 "label": "Cynthia"
             }
         },
-        "322idpjvCmW": {
+        "VTyLvSoUMBY": {
             "metadata": {
                 "component": "Offer",
-                "x": 641,
-                "y": 264,
+                "x": 325,
+                "y": 151,
                 "label": "Dave"
             }
         },
-        "gJ56FEfiptW": {
+        "JdJPhtHHpbf": {
             "metadata": {
                 "component": "Offer",
-                "x": 253,
-                "y": 180,
+                "x": 251,
+                "y": 245,
                 "label": "Facilitator Role"
             }
         },
-        "BKKtLaur1Fv": {
+        "gHKHuNzKbpA": {
             "metadata": {
                 "component": "Offer",
-                "x": 413,
-                "y": 342,
+                "x": 707,
+                "y": 525,
                 "label": "Open Source Video Editor"
             }
         },
-        "8cQysDCNFBy": {
+        "SmqEWSvNCYF": {
             "metadata": {
                 "component": "Offer",
-                "x": 693,
-                "y": 437,
+                "x": 429,
+                "y": 736,
                 "label": "Feature Bounty: splitting tool"
             }
         },
-        "SmvePgcesYt": {
+        "RVApbdyQTQS": {
             "metadata": {
                 "component": "Offer",
-                "x": 701,
-                "y": 436,
+                "x": 298,
+                "y": 177,
                 "label": "Vote on proposed solutions"
             }
         },
-        "DcjRMqsFGc3": {
+        "DgwpNywWRvp": {
             "metadata": {
                 "component": "Offer",
-                "x": 678,
-                "y": 456,
+                "x": 182,
+                "y": 732,
                 "label": "Anyone can support the parent offer with tokens"
             }
         },
-        "PugkrWuvMmw": {
+        "AA5Eo72vnfN": {
             "metadata": {
                 "component": "Offer",
-                "x": 188,
-                "y": 442,
+                "x": 206,
+                "y": 547,
                 "label": "Reward Pool"
             }
         },
-        "M9FsvifaKbX": {
+        "ZsyommF2Ksp": {
             "metadata": {
                 "component": "Offer",
-                "x": 256,
-                "y": 530,
+                "x": 264,
+                "y": 398,
                 "label": "Solution for: \"splitting tool\""
             }
         }
@@ -116,11 +105,11 @@ Offer
     "connections": [
         {
             "src": {
-                "process": "DaRBN5zzGXE",
+                "process": "6WXMrbeP76e",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "BKKtLaur1Fv",
+                "process": "gHKHuNzKbpA",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -129,11 +118,11 @@ Offer
         },
         {
             "src": {
-                "process": "DaRBN5zzGXE",
+                "process": "6WXMrbeP76e",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "BKKtLaur1Fv",
+                "process": "gHKHuNzKbpA",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -142,11 +131,11 @@ Offer
         },
         {
             "src": {
-                "process": "DaRBN5zzGXE",
+                "process": "6WXMrbeP76e",
                 "port": "Created"
             },
             "tgt": {
-                "process": "gJ56FEfiptW",
+                "process": "JdJPhtHHpbf",
                 "port": ""
             },
             "metadata": {
@@ -155,11 +144,11 @@ Offer
         },
         {
             "src": {
-                "process": "DaRBN5zzGXE",
+                "process": "6WXMrbeP76e",
                 "port": "Created"
             },
             "tgt": {
-                "process": "BKKtLaur1Fv",
+                "process": "gHKHuNzKbpA",
                 "port": ""
             },
             "metadata": {
@@ -168,11 +157,11 @@ Offer
         },
         {
             "src": {
-                "process": "3x7jrzxMUnh",
+                "process": "9QZQ4386itX",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "BKKtLaur1Fv",
+                "process": "gHKHuNzKbpA",
                 "port": "Create Asset"
             },
             "metadata": {
@@ -181,11 +170,11 @@ Offer
         },
         {
             "src": {
-                "process": "3x7jrzxMUnh",
+                "process": "9QZQ4386itX",
                 "port": "Capability"
             },
             "tgt": {
-                "process": "BKKtLaur1Fv",
+                "process": "gHKHuNzKbpA",
                 "port": "Create Offer"
             },
             "metadata": {
@@ -194,11 +183,11 @@ Offer
         },
         {
             "src": {
-                "process": "4t6YyNxJaPt",
+                "process": "fGzW3ZzafNa",
                 "port": "Created"
             },
             "tgt": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": ""
             },
             "metadata": {
@@ -207,11 +196,11 @@ Offer
         },
         {
             "src": {
-                "process": "322idpjvCmW",
+                "process": "VTyLvSoUMBY",
                 "port": "Created"
             },
             "tgt": {
-                "process": "M9FsvifaKbX",
+                "process": "ZsyommF2Ksp",
                 "port": ""
             },
             "metadata": {
@@ -220,11 +209,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "SmvePgcesYt",
+                "process": "RVApbdyQTQS",
                 "port": ""
             },
             "metadata": {
@@ -233,11 +222,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "DcjRMqsFGc3",
+                "process": "DgwpNywWRvp",
                 "port": ""
             },
             "metadata": {
@@ -246,11 +235,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Suboffer"
             },
             "tgt": {
-                "process": "PugkrWuvMmw",
+                "process": "AA5Eo72vnfN",
                 "port": ""
             },
             "metadata": {
@@ -259,11 +248,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Created"
             },
             "tgt": {
-                "process": "SmvePgcesYt",
+                "process": "RVApbdyQTQS",
                 "port": ""
             },
             "metadata": {
@@ -272,11 +261,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Created"
             },
             "tgt": {
-                "process": "DcjRMqsFGc3",
+                "process": "DgwpNywWRvp",
                 "port": ""
             },
             "metadata": {
@@ -285,11 +274,11 @@ Offer
         },
         {
             "src": {
-                "process": "8cQysDCNFBy",
+                "process": "SmqEWSvNCYF",
                 "port": "Created"
             },
             "tgt": {
-                "process": "PugkrWuvMmw",
+                "process": "AA5Eo72vnfN",
                 "port": ""
             },
             "metadata": {
