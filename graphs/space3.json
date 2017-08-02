@@ -1,116 +1,139 @@
 {
-    "id": "abc",
-    "project": "xyz",
+    "caseSensitive": false,
     "properties": {
-        "name": "space-demo",
+        "name": "space3",
         "environment": {
             "runtime": "html",
             "width": 300,
             "height": 300,
-            "content": ""
+            "content": "",
+            "type": "noflo-browser"
         }
     },
     "inports": {},
     "outports": {},
+    "groups": [],
     "processes": {
-        "browser-app/DoSomething_8FjzWrdtFHb": {
+        "HV56TTYg7iM": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 617,
-                "y": 211,
-                "label": "Alice"
+                "component": "browser-app/Offer",
+                "x": 36,
+                "y": 324,
+                "label": "Alice",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_L5AAT35FSrd": {
+        "7pdTkVbRwQB": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 565,
-                "y": 358,
-                "label": "Bob"
+                "component": "browser-app/Offer",
+                "x": 36,
+                "y": 180,
+                "label": "Bob",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_LZ1N69aGyXZ": {
+        "9DFSVGZNHks": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 239,
-                "y": 624,
-                "label": "Cynthia"
+                "component": "browser-app/Offer",
+                "x": 36,
+                "y": 468,
+                "label": "Cynthia",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_eXKkmjxnnyw": {
+        "Z5det2CEg9u": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 696,
-                "y": 576,
-                "label": "Dave"
+                "component": "browser-app/Offer",
+                "x": 36,
+                "y": 36,
+                "label": "Dave",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_czwtT2nNbq8": {
+        "Zk9CS1GhDAg": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 701,
-                "y": 540,
-                "label": "Facilitator Role"
+                "component": "browser-app/Offer",
+                "x": 144,
+                "y": 324,
+                "label": "Facilitator Role",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_VorbJdXNPLe": {
+        "QmD57Le2Yfg": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 340,
-                "y": 595,
-                "label": "Open Source Video Editor"
+                "component": "browser-app/Offer",
+                "x": 144,
+                "y": 180,
+                "label": "Open Source Video Editor",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_K8Cd2vZsJqp": {
+        "5GBszqqCrjj": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 370,
-                "y": 309,
-                "label": "Feature Bounty: splitting tool"
+                "component": "browser-app/Offer",
+                "x": 144,
+                "y": 468,
+                "label": "Feature Bounty: splitting tool",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_XwFnXShuxy2": {
+        "VE7JDu27MzM": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 529,
-                "y": 368,
-                "label": "Vote on proposed solutions"
+                "component": "browser-app/Offer",
+                "x": 432,
+                "y": 180,
+                "label": "Vote on proposed solutions",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_b32NZ89AZdk": {
+        "MiLbaWkQPeQ": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 542,
-                "y": 254,
-                "label": "Anyone can support the parent offer with tokens"
+                "component": "browser-app/Offer",
+                "x": 468,
+                "y": 324,
+                "label": "Anyone can support the parent offer with tokens",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_69fmgR9RTvE": {
+        "CztGoiCkczH": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 264,
-                "y": 749,
-                "label": "Reward Pool"
+                "component": "browser-app/Offer",
+                "x": 468,
+                "y": 468,
+                "label": "Reward Pool",
+                "width": 72,
+                "height": 72
             }
         },
-        "browser-app/DoSomething_U3tNp44nikB": {
+        "agpsgKTDrPN": {
             "metadata": {
-                "component": "browser-app/DoSomething",
-                "x": 316,
-                "y": 519,
-                "label": "Solution for: \"splitting tool\""
+                "component": "browser-app/Offer",
+                "x": 144,
+                "y": 36,
+                "label": "Solution for: \"splitting tool\"",
+                "width": 72,
+                "height": 72
             }
         }
     },
     "connections": [
         {
             "src": {
-                "process": "8FjzWrdtFHb",
-                "port": "Capability"
+                "process": "HV56TTYg7iM",
+                "port": "capability"
             },
             "tgt": {
-                "process": "VorbJdXNPLe",
-                "port": "Create Asset"
+                "process": "QmD57Le2Yfg",
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -118,12 +141,12 @@
         },
         {
             "src": {
-                "process": "8FjzWrdtFHb",
-                "port": "Capability"
+                "process": "HV56TTYg7iM",
+                "port": "capability"
             },
             "tgt": {
-                "process": "VorbJdXNPLe",
-                "port": "Create Offer"
+                "process": "QmD57Le2Yfg",
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -131,11 +154,11 @@
         },
         {
             "src": {
-                "process": "8FjzWrdtFHb",
-                "port": "Created"
+                "process": "HV56TTYg7iM",
+                "port": "created"
             },
             "tgt": {
-                "process": "czwtT2nNbq8",
+                "process": "Zk9CS1GhDAg",
                 "port": ""
             },
             "metadata": {
@@ -144,11 +167,11 @@
         },
         {
             "src": {
-                "process": "8FjzWrdtFHb",
-                "port": "Created"
+                "process": "HV56TTYg7iM",
+                "port": "created"
             },
             "tgt": {
-                "process": "VorbJdXNPLe",
+                "process": "QmD57Le2Yfg",
                 "port": ""
             },
             "metadata": {
@@ -157,12 +180,12 @@
         },
         {
             "src": {
-                "process": "L5AAT35FSrd",
-                "port": "Capability"
+                "process": "7pdTkVbRwQB",
+                "port": "capability"
             },
             "tgt": {
-                "process": "VorbJdXNPLe",
-                "port": "Create Asset"
+                "process": "QmD57Le2Yfg",
+                "port": "create asset"
             },
             "metadata": {
                 "route": 1
@@ -170,12 +193,12 @@
         },
         {
             "src": {
-                "process": "L5AAT35FSrd",
-                "port": "Capability"
+                "process": "7pdTkVbRwQB",
+                "port": "capability"
             },
             "tgt": {
-                "process": "VorbJdXNPLe",
-                "port": "Create Offer"
+                "process": "QmD57Le2Yfg",
+                "port": "create offer"
             },
             "metadata": {
                 "route": 1
@@ -183,11 +206,11 @@
         },
         {
             "src": {
-                "process": "LZ1N69aGyXZ",
-                "port": "Created"
+                "process": "9DFSVGZNHks",
+                "port": "created"
             },
             "tgt": {
-                "process": "K8Cd2vZsJqp",
+                "process": "5GBszqqCrjj",
                 "port": ""
             },
             "metadata": {
@@ -196,11 +219,11 @@
         },
         {
             "src": {
-                "process": "eXKkmjxnnyw",
-                "port": "Created"
+                "process": "Z5det2CEg9u",
+                "port": "created"
             },
             "tgt": {
-                "process": "U3tNp44nikB",
+                "process": "agpsgKTDrPN",
                 "port": ""
             },
             "metadata": {
@@ -209,11 +232,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Suboffer"
+                "process": "5GBszqqCrjj",
+                "port": "suboffer"
             },
             "tgt": {
-                "process": "XwFnXShuxy2",
+                "process": "VE7JDu27MzM",
                 "port": ""
             },
             "metadata": {
@@ -222,11 +245,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Suboffer"
+                "process": "5GBszqqCrjj",
+                "port": "suboffer"
             },
             "tgt": {
-                "process": "b32NZ89AZdk",
+                "process": "MiLbaWkQPeQ",
                 "port": ""
             },
             "metadata": {
@@ -235,11 +258,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Suboffer"
+                "process": "5GBszqqCrjj",
+                "port": "suboffer"
             },
             "tgt": {
-                "process": "69fmgR9RTvE",
+                "process": "CztGoiCkczH",
                 "port": ""
             },
             "metadata": {
@@ -248,11 +271,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Created"
+                "process": "5GBszqqCrjj",
+                "port": "created"
             },
             "tgt": {
-                "process": "XwFnXShuxy2",
+                "process": "VE7JDu27MzM",
                 "port": ""
             },
             "metadata": {
@@ -261,11 +284,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Created"
+                "process": "5GBszqqCrjj",
+                "port": "created"
             },
             "tgt": {
-                "process": "b32NZ89AZdk",
+                "process": "MiLbaWkQPeQ",
                 "port": ""
             },
             "metadata": {
@@ -274,11 +297,11 @@
         },
         {
             "src": {
-                "process": "K8Cd2vZsJqp",
-                "port": "Created"
+                "process": "5GBszqqCrjj",
+                "port": "created"
             },
             "tgt": {
-                "process": "69fmgR9RTvE",
+                "process": "CztGoiCkczH",
                 "port": ""
             },
             "metadata": {
