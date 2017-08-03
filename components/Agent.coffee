@@ -4,7 +4,7 @@ exports.getComponent = ->
   c = new noflo.Component
 
   # Define a meaningful icon for component from http://fontawesome.io/icons/
-  c.icon = 'cog'
+  c.icon = 'users'
 
   # Provide a description on component usage
   c.description = 'do X'
