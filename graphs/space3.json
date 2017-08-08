@@ -1,148 +1,242 @@
 {
-    "registry": {
-        "e8Jwncc8xVq": {
-            "space": "~",
-            "name": "Alice",
-            "creator": "DID:BTCR:TX1-RJK0-U5NG-4JSF-MC",
-            "id": "e8Jwncc8xVq",
-            "caps": {},
-            "created": [
-                {
-                    "space": "~",
-                    "name": "Open Source Video Editor",
-                    "description": "Lorem ipsum...",
-                    "creator": "e8Jwncc8xVq",
-                    "id": "TMD63kr7Uy6",
-                    "caps": {},
-                    "created": [],
-                    "offers": [
-                        {
-                            "space": "~",
-                            "constellation": "~registry~e8Jwncc8xVq~created~0",
-                            "type": "TALLY",
-                            "parties": [
-                                "CLAIMANT"
-                            ],
-                            "name": "Feature Bounty: splitting tool",
-                            "description": "Splitting tool for video editor. Expected to take \\x7e10 hours.",
-                            "imageLink": "https://open-source-video-editor.ninja/splitting.jpg",
-                            "destinations": "CLAIMANT",
-                            "expiration": "2017-12-31T00:00:00Z",
-                            "onExpiration": "ROLLBACK",
-                            "creator": "igctTfzHZKd",
-                            "id": "KXZZmq7QryV",
-                            "caps": {},
-                            "created": [
-                                {
-                                    "type": "VOTE",
-                                    "name": "Vote on proposed solutions",
-                                    "parties": [
-                                        "CONSTELLATION_VOTER"
-                                    ],
-                                    "space": "~",
-                                    "creator": "KXZZmq7QryV",
-                                    "id": "hnXTd5Xf2Ww",
-                                    "caps": {},
-                                    "created": [],
-                                    "capabilities": [],
-                                    "subOffers": {}
-                                },
-                                {
-                                    "space": "~",
-                                    "name": "Reward Pool",
-                                    "type": "SUPPORT",
-                                    "access": "PUBLIC",
-                                    "parties": [
-                                        "SUPPORTER"
-                                    ],
-                                    "creator": "KXZZmq7QryV",
-                                    "id": "DhdAXG8ecGC",
-                                    "caps": {},
-                                    "created": [],
-                                    "capabilities": [],
-                                    "subOffers": {}
-                                }
-                            ],
-                            "capabilities": [],
-                            "subOffers": {
-                                "hnXTd5Xf2Ww": "~registry~e8Jwncc8xVq~created~0~offers~0~created~0",
-                                "DhdAXG8ecGC": "~registry~e8Jwncc8xVq~created~0~offers~0~created~1"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "space": "~",
-                    "target": "~registry~e8Jwncc8xVq~created~0",
-                    "name": "Facilitator",
-                    "powers": [
-                        "CREATE_ASSET",
-                        "CREATE_OFFER"
-                    ],
-                    "creator": "e8Jwncc8xVq",
-                    "id": "Zem3XJzTfBC",
-                    "caps": {},
-                    "created": [],
-                    "capabilities": []
-                }
-            ],
-            "roles": [
-                "~registry~e8Jwncc8xVq~created~1"
-            ]
+    "caseSensitive": false,
+    "properties": {
+        "name": "space-demo",
+        "environment": {
+            "runtime": "html",
+            "width": 300,
+            "height": 300,
+            "content": ""
+        }
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "dXswffVhD18": {
+            "component": "space/Agent",
+            "metadata": {
+                "x": 212,
+                "y": 279,
+                "label": "Alice"
+            }
         },
-        "UanErVZDPuZ": {
-            "space": "~",
-            "name": "Bob",
-            "creator": "urn:uuid:ae84-d5c2-2845f922d59842-2984252ae",
-            "id": "UanErVZDPuZ",
-            "caps": {},
-            "created": [],
-            "roles": [
-                "~registry~e8Jwncc8xVq~created~1"
-            ]
+        "TqTVnGDQrfT": {
+            "component": "space/Agent",
+            "metadata": {
+                "x": 180,
+                "y": 351,
+                "label": "Bob"
+            }
         },
-        "igctTfzHZKd": {
-            "space": "~",
-            "name": "Cynthia",
-            "creator": "urn:uport:0xc0ea08a2d404d3172d2add29a45be56da40e2949",
-            "id": "igctTfzHZKd",
-            "caps": {},
-            "created": [
-                "~registry~e8Jwncc8xVq~created~0~offers~0"
-            ],
-            "roles": []
+        "fzrg87VH7A5": {
+            "component": "space/Agent",
+            "metadata": {
+                "x": 598,
+                "y": 353,
+                "label": "Cynthia"
+            }
         },
-        "2MwkDdB5qSj": {
-            "space": "~",
-            "name": "Dave",
-            "creator": "urn:uport:0x27bebc44c6f60f99d558422288d616ee15dcb36d",
-            "id": "2MwkDdB5qSj",
-            "caps": {},
-            "created": [
-                {
-                    "space": "~",
-                    "name": "Solution for: \"splitting tool\"",
-                    "parties": [
-                        "~registry~e8Jwncc8xVq~created~0~offers~0"
-                    ],
-                    "type": "CLAIM",
-                    "minimum_budget": 700,
-                    "expiration": "2017-12-25T00:00:00Z",
-                    "creator": "2MwkDdB5qSj",
-                    "id": "NJuUnpE3pKj",
-                    "caps": {},
-                    "created": [],
-                    "capabilities": [],
-                    "subOffers": {}
-                }
-            ],
-            "roles": []
+        "Q8s9Nm1t2hk": {
+            "component": "space/Agent",
+            "metadata": {
+                "x": 317,
+                "y": 345,
+                "label": "Dave"
+            }
         },
-        "TMD63kr7Uy6": "~registry~e8Jwncc8xVq~created~0",
-        "Zem3XJzTfBC": "~registry~e8Jwncc8xVq~created~1",
-        "KXZZmq7QryV": "~registry~e8Jwncc8xVq~created~0~offers~0",
-        "hnXTd5Xf2Ww": "~registry~e8Jwncc8xVq~created~0~offers~0~created~0",
-        "DhdAXG8ecGC": "~registry~e8Jwncc8xVq~created~0~offers~0~created~1",
-        "NJuUnpE3pKj": "~registry~2MwkDdB5qSj~created~0"
-    }
+        "HXUgyc56GrB": {
+            "component": "space/Constellation",
+            "metadata": {
+                "x": 384,
+                "y": 596,
+                "label": "Open Source Video Editor"
+            }
+        },
+        "fGTCGGKourE": {
+            "component": "space/Role",
+            "metadata": {
+                "x": 625,
+                "y": 534,
+                "label": "Facilitator"
+            }
+        },
+        "i5Ra21dmME": {
+            "component": "space/Offer",
+            "metadata": {
+                "x": 495,
+                "y": 411,
+                "label": "Feature Bounty: splitting tool"
+            }
+        },
+        "8DCu9q9pQHC": {
+            "component": "space/Offer",
+            "metadata": {
+                "x": 641,
+                "y": 430,
+                "label": "Vote on proposed solutions"
+            }
+        },
+        "5h3Vm3gAKBY": {
+            "component": "space/Offer",
+            "metadata": {
+                "x": 494,
+                "y": 712,
+                "label": "Reward Pool"
+            }
+        },
+        "Khx845igYWq": {
+            "component": "space/Offer",
+            "metadata": {
+                "x": 684,
+                "y": 403,
+                "label": "Solution for: \"splitting tool\""
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "dXswffVhD18",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "HXUgyc56GrB",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "dXswffVhD18",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "fGTCGGKourE",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "fzrg87VH7A5",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "i5Ra21dmME",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "Q8s9Nm1t2hk",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "Khx845igYWq",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "HXUgyc56GrB",
+                "port": "offer"
+            },
+            "tgt": {
+                "process": "i5Ra21dmME",
+                "port": "tally"
+            },
+            "metadata": {
+                "route": 3
+            }
+        },
+        {
+            "src": {
+                "process": "fGTCGGKourE",
+                "port": "capability"
+            },
+            "tgt": {
+                "process": "HXUgyc56GrB",
+                "port": "create_asset"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "fGTCGGKourE",
+                "port": "capability"
+            },
+            "tgt": {
+                "process": "HXUgyc56GrB",
+                "port": "create_offer"
+            },
+            "metadata": {
+                "route": 1
+            }
+        },
+        {
+            "src": {
+                "process": "i5Ra21dmME",
+                "port": "suboffer"
+            },
+            "tgt": {
+                "process": "8DCu9q9pQHC",
+                "port": "vote"
+            },
+            "metadata": {
+                "route": 4
+            }
+        },
+        {
+            "src": {
+                "process": "i5Ra21dmME",
+                "port": "suboffer"
+            },
+            "tgt": {
+                "process": "5h3Vm3gAKBY",
+                "port": "support"
+            },
+            "metadata": {
+                "route": 4
+            }
+        },
+        {
+            "src": {
+                "process": "i5Ra21dmME",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "8DCu9q9pQHC",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        },
+        {
+            "src": {
+                "process": "i5Ra21dmME",
+                "port": "creates"
+            },
+            "tgt": {
+                "process": "5h3Vm3gAKBY",
+                "port": ""
+            },
+            "metadata": {
+                "route": 2
+            }
+        }
+    ]
 }
